@@ -1,0 +1,755 @@
+TVideogame
+v7
+r0
+t323050045.044482
+cCheck dependencies
+cCpResource build/Release-iphoneos/Videogame.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/Info.plist Videogame-Info.plist
+cCpResource build/Release-iphoneos/Videogame.app/Shader.fsh Shaders/Shader.fsh
+cCpResource build/Release-iphoneos/Videogame.app/Shader.vsh Shaders/Shader.vsh
+cCompileXIB /Users/svp/Documents/Videogame/MainWindow.xib
+cCompileXIB /Users/svp/Documents/Videogame/VideogameViewController.xib
+cCopyPNGFile /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/player.png player.png
+cCopyPNGFile /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/test.png test.png
+cProcessPCH /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-ebwsvhmmosxkfcbbopthufmtqcjr/Videogame_Prefix.pch.gch Videogame_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-bfbbnwuzwebnxlapcjgrwieudbgb/Videogame_Prefix.pch.gch Videogame_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/main.o /Users/svp/Documents/Videogame/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/VideogameAppDelegate.o /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/EAGLView.o /Users/svp/Documents/Videogame/Classes/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/VideogameViewController.o /Users/svp/Documents/Videogame/Classes/VideogameViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Image.o /Users/svp/Documents/Videogame/Image.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Texture2D.o /Users/svp/Documents/Videogame/Texture2D.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/main.o /Users/svp/Documents/Videogame/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/VideogameAppDelegate.o /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/EAGLView.o /Users/svp/Documents/Videogame/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/VideogameViewController.o /Users/svp/Documents/Videogame/Classes/VideogameViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Image.o /Users/svp/Documents/Videogame/Image.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Texture2D.o /Users/svp/Documents/Videogame/Texture2D.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessProductPackaging "/Users/svp/Library/MobileDevice/Provisioning Profiles/DAD02062-B988-47A3-8576-3CED2F764F9E.mobileprovision" /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/embedded.mobileprovision
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame.xcent
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC110BE000000000000094F
+t1287721150
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC110BE0000000000009369
+t1287721150
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC110BE0000000000003C4A
+t1287721150
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004CC110BE00000000000092AA
+t1287721150
+s37546
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004CC110BE00000000000026AA
+t1287721150
+s9898
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC110CB000000000002C650
+t1287721163
+s181840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/svp/Documents/Videogame/Classes/EAGLView.h
+c000000004D8E55FE00000000000003E1
+t1301173758
+s993
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/svp/Documents/Videogame/Classes/EAGLView.m
+c000000004D8E55FE0000000000000EE9
+t1301173758
+s3817
+i<QuartzCore/QuartzCore.h>
+i"EAGLView.h"
+
+N/Users/svp/Documents/Videogame/Classes/Texture2D.h
+c000000004869282300000000000012A9
+t1214851107
+s4777
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.h
+c000000004D8E55FE00000000000001EC
+t1301173758
+s492
+i<UIKit/UIKit.h>
+
+N/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m
+c000000004D8E55FE00000000000004BE
+t1301173758
+s1214
+i"VideogameAppDelegate.h"
+i"VideogameViewController.h"
+
+N/Users/svp/Documents/Videogame/Classes/VideogameViewController.h
+c000000004D8FBF8B000000000000035E
+t1301266315
+s862
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+i"Texture2D.h"
+i"Image.h"
+
+N/Users/svp/Documents/Videogame/Classes/VideogameViewController.m
+c000000004D90C2ED0000000000002510
+t1301332717
+s9488
+i<QuartzCore/QuartzCore.h>
+i"VideogameViewController.h"
+i"EAGLView.h"
+
+N/Users/svp/Documents/Videogame/Image.h
+c000000004D90C49C0000000000001124
+t1301333148
+s4388
+i<Foundation/Foundation.h>
+i"Texture2D.h"
+
+N/Users/svp/Documents/Videogame/Image.m
+c000000004D90CC0100000000000020C7
+t1301335041
+s8391
+i"Image.h"
+
+N/Users/svp/Documents/Videogame/MainWindow.xib
+c000000004D8E55FE0000000000005532
+t1301173758
+s21810
+
+N/Users/svp/Documents/Videogame/Shaders/Shader.fsh
+c000000004D8E55FE00000000000000DD
+t1301173758
+s221
+
+N/Users/svp/Documents/Videogame/Shaders/Shader.vsh
+c000000004D8E55FE0000000000000163
+t1301173758
+s355
+
+N/Users/svp/Documents/Videogame/Texture2D.h
+c0000000049BCF83900000000000012D5
+t1237121081
+s4821
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/svp/Documents/Videogame/Texture2D.m
+c0000000049BCF8FE0000000000002A19
+t1237121278
+s10777
+i<OpenGLES/ES1/glext.h>
+i"Texture2D.h"
+
+N/Users/svp/Documents/Videogame/VideogameViewController.xib
+c000000004D8E55FE00000000000043F5
+t1301173758
+s17397
+
+N/Users/svp/Documents/Videogame/Videogame_Prefix.pch
+c000000004D8E55FE000000000000013C
+t1301173758
+s316
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app
+t2
+s0
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app.dSYM
+t2
+s0
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/Info.plist
+t1301357238
+s816
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/MainWindow.nib
+t1301357239
+s1175
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/PkgInfo
+t1301357238
+s8
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/ResourceRules.plist
+t1301357238
+s485
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/Shader.fsh
+t1301357238
+s221
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/Shader.vsh
+t1301357238
+s355
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/Videogame
+t2
+s0
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/VideogameViewController.nib
+t1301357239
+s873
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/embedded.mobileprovision
+t1301357244
+s29484
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/player.png
+t1301357239
+s4920
+
+N/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/test.png
+t1301357240
+s437
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/EAGLView.o
+t1301357242
+s47332
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Image.o
+t1301357243
+s30492
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Texture2D.o
+t1301357243
+s27796
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Videogame
+t2
+s0
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Videogame.LinkFileList
+c000000004D9122B600000000000002D9
+t1301357238
+s729
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/VideogameAppDelegate.o
+t2
+s0
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/VideogameViewController.o
+t2
+s0
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/main.o
+t1301357242
+s6504
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/EAGLView.o
+t1301357244
+s46984
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Image.o
+t1301357244
+s29596
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Texture2D.o
+t1301357244
+s26908
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Videogame
+t2
+s0
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Videogame.LinkFileList
+c000000004D9122B600000000000002D9
+t1301357238
+s729
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/VideogameAppDelegate.o
+t2
+s0
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/VideogameViewController.o
+t2
+s0
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/main.o
+t1301357243
+s6472
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame.xcent
+t1301357245
+s424
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/svp/Documents/Videogame/main.m
+c000000004D8E55FE000000000000016C
+t1301173758
+s364
+i<UIKit/UIKit.h>
+
+N/Users/svp/Documents/Videogame/player.png
+c00000000498B73AA000000000000106A
+t1233875882
+s4202
+
+N/Users/svp/Documents/Videogame/test.png
+c000000004D8EAF1A00000000000001EA
+t1301196570
+s490
+
+N/Users/svp/Library/MobileDevice/Provisioning Profiles/DAD02062-B988-47A3-8576-3CED2F764F9E.mobileprovision
+c000000004D91010A000000000000732C
+t1301348618
+s29484
+
+N/var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-bfbbnwuzwebnxlapcjgrwieudbgb/Videogame_Prefix.pch.gch
+t1301357241
+s10249944
+
+N/var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-ebwsvhmmosxkfcbbopthufmtqcjr/Videogame_Prefix.pch.gch
+t1301357241
+s9778904
+
+NVideogame-Info.plist
+c000000004D8E55FE00000000000003B4
+t1301173758
+s948
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323050038#323050038#0(0"0(0#1#0"8612904096#0"0#
+
+CCodeSign /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app
+r0
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/EAGLView.o /Users/svp/Documents/Videogame/Classes/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323050042.086409
+e323050042.692569
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/EAGLView.o
+x/Users/svp/Documents/Videogame/Classes/EAGLView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/svp/Documents/Videogame/Classes/EAGLView.m323050042#323050042#0(0"0(0#0#49"/Users/svp/Documents/Videogame/Classes/EAGLView.m8610745760#1726"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv6 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-ebwsvhmmosxkfcbbopthufmtqcjr/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Classes/EAGLView.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/EAGLView.o0#
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Image.o /Users/svp/Documents/Videogame/Image.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323050042.482829
+e323050043.305098
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Image.o
+x/Users/svp/Documents/Videogame/Image.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/svp/Documents/Videogame/Image.m323050042#323050043#0(0"0(0#0#38"/Users/svp/Documents/Videogame/Image.m8612473120#1712"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv6 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-ebwsvhmmosxkfcbbopthufmtqcjr/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Image.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Image.o0#
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Texture2D.o /Users/svp/Documents/Videogame/Texture2D.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323050042.692780
+e323050043.330740
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Texture2D.o
+x/Users/svp/Documents/Videogame/Texture2D.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/svp/Documents/Videogame/Texture2D.m323050042#323050043#0(0"0(0#0#42"/Users/svp/Documents/Videogame/Texture2D.m8610592352#1720"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv6 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-ebwsvhmmosxkfcbbopthufmtqcjr/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Texture2D.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Texture2D.o0#
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/VideogameAppDelegate.o /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323050041.675435
+e323050042.086276
+r0
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/VideogameAppDelegate.o
+x/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/svp/Documents/Videogame/Image.h:54,
+o                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h:18,
+o                 from /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m:10:
+o/Users/svp/Documents/Videogame/Texture2D.h:54: error: redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:54: error: previous definition of 'kTexture2DPixelFormat_Automatic' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:55: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:55: error: previous definition of 'kTexture2DPixelFormat_RGBA8888' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:56: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:56: error: previous definition of 'kTexture2DPixelFormat_RGB565' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:57: error: redeclaration of enumerator 'kTexture2DPixelFormat_A8'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:57: error: previous definition of 'kTexture2DPixelFormat_A8' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:58: error: conflicting types for 'Texture2DPixelFormat'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:58: error: previous declaration of 'Texture2DPixelFormat' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:69: error: duplicate interface declaration for class 'Texture2D'
+o/Users/svp/Documents/Videogame/Texture2D.h:78: error: redefinition of 'struct Texture2D'
+o/Users/svp/Documents/Videogame/Texture2D.h:97: warning: duplicate interface declaration for category 'Texture2D(Drawing)'
+o/Users/svp/Documents/Videogame/Texture2D.h:106: warning: duplicate interface declaration for category 'Texture2D(Image)'
+o/Users/svp/Documents/Videogame/Texture2D.h:114: warning: duplicate interface declaration for category 'Texture2D(Text)'
+lSLF07#2@69"Compile /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m323050041#323050042#0(1975"In file included from /Users/svp/Documents/Videogame/Image.h:54,                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h:18,                 from /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m:10:/Users/svp/Documents/Videogame/Texture2D.h:54: error: redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'/Users/svp/Documents/Videogame/Classes/Texture2D.h:54: error: previous definition of 'kTexture2DPixelFormat_Automatic' was here/Users/svp/Documents/Videogame/Texture2D.h:55: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'/Users/svp/Documents/Videogame/Classes/Texture2D.h:55: error: previous definition of 'kTexture2DPixelFormat_RGBA8888' was here/Users/svp/Documents/Videogame/Texture2D.h:56: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'/Users/svp/Documents/Videogame/Classes/Texture2D.h:56: error: previous definition of 'kTexture2DPixelFormat_RGB565' was here/Users/svp/Documents/Videogame/Texture2D.h:57: error: redeclaration of enumerator 'kTexture2DPixelFormat_A8'/Users/svp/Documents/Videogame/Classes/Texture2D.h:57: error: previous definition of 'kTexture2DPixelFormat_A8' was here/Users/svp/Documents/Videogame/Texture2D.h:58: error: conflicting types for 'Texture2DPixelFormat'/Users/svp/Documents/Videogame/Classes/Texture2D.h:58: error: previous declaration of 'Texture2DPixelFormat' was here/Users/svp/Documents/Videogame/Texture2D.h:69: error: duplicate interface declaration for class 'Texture2D'/Users/svp/Documents/Videogame/Texture2D.h:78: error: redefinition of 'struct Texture2D'/Users/svp/Documents/Videogame/Texture2D.h:97: warning: duplicate interface declaration for category 'Texture2D(Drawing)'/Users/svp/Documents/Videogame/Texture2D.h:106: warning: duplicate interface declaration for category 'Texture2D(Image)'/Users/svp/Documents/Videogame/Texture2D.h:114: warning: duplicate interface declaration for category 'Texture2D(Text)'15(4@61"Redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'323050041#244#116#4(7@83"In file included from /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m323050041#18446744073709551615#0#0(6@61"/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m322866558#10#0#10#0#0"0(7@86"In file included from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h323050041#18446744073709551615#0#0(6@64"/Users/svp/Documents/Videogame/Classes/VideogameViewController.h322959115#18#0#18#0#0"0(7@60"In file included from /Users/svp/Documents/Videogame/Image.h323050041#18446744073709551615#0#0(6@38"/Users/svp/Documents/Videogame/Image.h323025948#54#0#54#0#0"0(13@107"Redeclaration of enumerator 'kTexture2DPixelFormat_Automatic' in /Users/svp/Documents/Videogame/Texture2D.h323050041#18446744073709551615#0#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#54#0#54#0#0"0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#54#0#54#0#0"0(13@65"Previous definition of 'kTexture2DPixelFormat_Automatic' was here323050041#360#128#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#54#0#54#0#35"previous definition of '*' was here0(4@60"Redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'323050041#488#115#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#55#0#55#0#0"0(13@64"Previous definition of 'kTexture2DPixelFormat_RGBA8888' was here323050041#603#127#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#55#0#55#0#35"previous definition of '*' was here0(4@58"Redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'323050041#730#113#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#56#0#56#0#0"0(13@62"Previous definition of 'kTexture2DPixelFormat_RGB565' was here323050041#843#125#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#56#0#56#0#35"previous definition of '*' was here0(4@54"Redeclaration of enumerator 'kTexture2DPixelFormat_A8'323050041#968#109#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#57#0#57#0#0"0(13@58"Previous definition of 'kTexture2DPixelFormat_A8' was here323050041#1077#121#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#57#0#57#0#35"previous definition of '*' was here0(4@44"Conflicting types for 'Texture2DPixelFormat'323050041#1198#99#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#58#0#58#0#25"conflicting types for '*'0(13@55"Previous declaration of 'Texture2DPixelFormat' was here323050041#1297#118#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#58#0#58#0#0"0(4@53"Duplicate interface declaration for class 'Texture2D'323050041#1415#108#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#69#0#69#0#0"0(4@34"Redefinition of 'struct Texture2D'323050041#1523#89#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#78#0#78#0#19"redefinition of '*'0(22@65"Duplicate interface declaration for category 'Texture2D(Drawing)'323050041#1612#122#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#97#0#97#0#0"0(22@63"Duplicate interface declaration for category 'Texture2D(Image)'323050041#1734#121#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#106#0#106#0#0"0(22@62"Duplicate interface declaration for category 'Texture2D(Text)'323050041#1855#120#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#114#0#114#0#0"0(0#0#61"/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m8602452288#1750"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv6 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-ebwsvhmmosxkfcbbopthufmtqcjr/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/VideogameAppDelegate.o1#
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/VideogameViewController.o /Users/svp/Documents/Videogame/Classes/VideogameViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323050042.090871
+e323050042.482631
+r0
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/VideogameViewController.o
+x/Users/svp/Documents/Videogame/Classes/VideogameViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/svp/Documents/Videogame/Image.h:54,
+o                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h:18,
+o                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.m:11:
+o/Users/svp/Documents/Videogame/Texture2D.h:54: error: redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:54: error: previous definition of 'kTexture2DPixelFormat_Automatic' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:55: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:55: error: previous definition of 'kTexture2DPixelFormat_RGBA8888' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:56: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:56: error: previous definition of 'kTexture2DPixelFormat_RGB565' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:57: error: redeclaration of enumerator 'kTexture2DPixelFormat_A8'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:57: error: previous definition of 'kTexture2DPixelFormat_A8' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:58: error: conflicting types for 'Texture2DPixelFormat'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:58: error: previous declaration of 'Texture2DPixelFormat' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:69: error: duplicate interface declaration for class 'Texture2D'
+o/Users/svp/Documents/Videogame/Texture2D.h:78: error: redefinition of 'struct Texture2D'
+o/Users/svp/Documents/Videogame/Texture2D.h:97: warning: duplicate interface declaration for category 'Texture2D(Drawing)'
+o/Users/svp/Documents/Videogame/Texture2D.h:106: warning: duplicate interface declaration for category 'Texture2D(Image)'
+o/Users/svp/Documents/Videogame/Texture2D.h:114: warning: duplicate interface declaration for category 'Texture2D(Text)'
+lSLF07#2@72"Compile /Users/svp/Documents/Videogame/Classes/VideogameViewController.m323050042#323050042#0(1978"In file included from /Users/svp/Documents/Videogame/Image.h:54,                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h:18,                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.m:11:/Users/svp/Documents/Videogame/Texture2D.h:54: error: redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'/Users/svp/Documents/Videogame/Classes/Texture2D.h:54: error: previous definition of 'kTexture2DPixelFormat_Automatic' was here/Users/svp/Documents/Videogame/Texture2D.h:55: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'/Users/svp/Documents/Videogame/Classes/Texture2D.h:55: error: previous definition of 'kTexture2DPixelFormat_RGBA8888' was here/Users/svp/Documents/Videogame/Texture2D.h:56: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'/Users/svp/Documents/Videogame/Classes/Texture2D.h:56: error: previous definition of 'kTexture2DPixelFormat_RGB565' was here/Users/svp/Documents/Videogame/Texture2D.h:57: error: redeclaration of enumerator 'kTexture2DPixelFormat_A8'/Users/svp/Documents/Videogame/Classes/Texture2D.h:57: error: previous definition of 'kTexture2DPixelFormat_A8' was here/Users/svp/Documents/Videogame/Texture2D.h:58: error: conflicting types for 'Texture2DPixelFormat'/Users/svp/Documents/Videogame/Classes/Texture2D.h:58: error: previous declaration of 'Texture2DPixelFormat' was here/Users/svp/Documents/Videogame/Texture2D.h:69: error: duplicate interface declaration for class 'Texture2D'/Users/svp/Documents/Videogame/Texture2D.h:78: error: redefinition of 'struct Texture2D'/Users/svp/Documents/Videogame/Texture2D.h:97: warning: duplicate interface declaration for category 'Texture2D(Drawing)'/Users/svp/Documents/Videogame/Texture2D.h:106: warning: duplicate interface declaration for category 'Texture2D(Image)'/Users/svp/Documents/Videogame/Texture2D.h:114: warning: duplicate interface declaration for category 'Texture2D(Text)'15(4@61"Redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'323050042#247#116#4(7@86"In file included from /Users/svp/Documents/Videogame/Classes/VideogameViewController.m323050042#18446744073709551615#0#0(6@64"/Users/svp/Documents/Videogame/Classes/VideogameViewController.m323025517#11#0#11#0#0"0(7@86"In file included from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h323050042#18446744073709551615#0#0(6@64"/Users/svp/Documents/Videogame/Classes/VideogameViewController.h322959115#18#0#18#0#0"0(7@60"In file included from /Users/svp/Documents/Videogame/Image.h323050042#18446744073709551615#0#0(6@38"/Users/svp/Documents/Videogame/Image.h323025948#54#0#54#0#0"0(13@107"Redeclaration of enumerator 'kTexture2DPixelFormat_Automatic' in /Users/svp/Documents/Videogame/Texture2D.h323050042#18446744073709551615#0#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#54#0#54#0#0"0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#54#0#54#0#0"0(13@65"Previous definition of 'kTexture2DPixelFormat_Automatic' was here323050042#363#128#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#54#0#54#0#35"previous definition of '*' was here0(4@60"Redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'323050042#491#115#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#55#0#55#0#0"0(13@64"Previous definition of 'kTexture2DPixelFormat_RGBA8888' was here323050042#606#127#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#55#0#55#0#35"previous definition of '*' was here0(4@58"Redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'323050042#733#113#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#56#0#56#0#0"0(13@62"Previous definition of 'kTexture2DPixelFormat_RGB565' was here323050042#846#125#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#56#0#56#0#35"previous definition of '*' was here0(4@54"Redeclaration of enumerator 'kTexture2DPixelFormat_A8'323050042#971#109#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#57#0#57#0#0"0(13@58"Previous definition of 'kTexture2DPixelFormat_A8' was here323050042#1080#121#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#57#0#57#0#35"previous definition of '*' was here0(4@44"Conflicting types for 'Texture2DPixelFormat'323050042#1201#99#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#58#0#58#0#25"conflicting types for '*'0(13@55"Previous declaration of 'Texture2DPixelFormat' was here323050042#1300#118#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#58#0#58#0#0"0(4@53"Duplicate interface declaration for class 'Texture2D'323050042#1418#108#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#69#0#69#0#0"0(4@34"Redefinition of 'struct Texture2D'323050042#1526#89#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#78#0#78#0#19"redefinition of '*'0(22@65"Duplicate interface declaration for category 'Texture2D(Drawing)'323050042#1615#122#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#97#0#97#0#0"0(22@63"Duplicate interface declaration for category 'Texture2D(Image)'323050042#1737#121#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#106#0#106#0#0"0(22@62"Duplicate interface declaration for category 'Texture2D(Text)'323050042#1858#120#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#114#0#114#0#0"0(0#0#64"/Users/svp/Documents/Videogame/Classes/VideogameViewController.m8609606720#1756"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv6 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-ebwsvhmmosxkfcbbopthufmtqcjr/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Classes/VideogameViewController.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/VideogameViewController.o1#
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/main.o /Users/svp/Documents/Videogame/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323050041.664412
+e323050042.090748
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/main.o
+x/Users/svp/Documents/Videogame/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/svp/Documents/Videogame/main.m323050041#323050042#0(0"0(0#0#37"/Users/svp/Documents/Videogame/main.m8604983232#1710"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv6 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-ebwsvhmmosxkfcbbopthufmtqcjr/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/main.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/EAGLView.o /Users/svp/Documents/Videogame/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323050043.685420
+e323050044.301315
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/EAGLView.o
+x/Users/svp/Documents/Videogame/Classes/EAGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/svp/Documents/Videogame/Classes/EAGLView.m323050043#323050044#0(0"0(0#0#49"/Users/svp/Documents/Videogame/Classes/EAGLView.m8610795360#1734"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv7 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-bfbbnwuzwebnxlapcjgrwieudbgb/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Classes/EAGLView.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/EAGLView.o0#
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Image.o /Users/svp/Documents/Videogame/Image.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323050044.069413
+e323050044.991725
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Image.o
+x/Users/svp/Documents/Videogame/Image.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/svp/Documents/Videogame/Image.m323050044#323050044#0(0"0(0#0#38"/Users/svp/Documents/Videogame/Image.m8609257088#1720"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv7 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-bfbbnwuzwebnxlapcjgrwieudbgb/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Image.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Image.o0#
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Texture2D.o /Users/svp/Documents/Videogame/Texture2D.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323050044.301499
+e323050044.969267
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Texture2D.o
+x/Users/svp/Documents/Videogame/Texture2D.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/svp/Documents/Videogame/Texture2D.m323050044#323050044#0(0"0(0#0#42"/Users/svp/Documents/Videogame/Texture2D.m8612015296#1728"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv7 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-bfbbnwuzwebnxlapcjgrwieudbgb/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Texture2D.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Texture2D.o0#
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/VideogameAppDelegate.o /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323050043.330895
+e323050043.727496
+r0
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/VideogameAppDelegate.o
+x/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/svp/Documents/Videogame/Image.h:54,
+o                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h:18,
+o                 from /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m:10:
+o/Users/svp/Documents/Videogame/Texture2D.h:54: error: redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:54: error: previous definition of 'kTexture2DPixelFormat_Automatic' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:55: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:55: error: previous definition of 'kTexture2DPixelFormat_RGBA8888' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:56: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:56: error: previous definition of 'kTexture2DPixelFormat_RGB565' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:57: error: redeclaration of enumerator 'kTexture2DPixelFormat_A8'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:57: error: previous definition of 'kTexture2DPixelFormat_A8' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:58: error: conflicting types for 'Texture2DPixelFormat'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:58: error: previous declaration of 'Texture2DPixelFormat' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:69: error: duplicate interface declaration for class 'Texture2D'
+o/Users/svp/Documents/Videogame/Texture2D.h:78: error: redefinition of 'struct Texture2D'
+o/Users/svp/Documents/Videogame/Texture2D.h:97: warning: duplicate interface declaration for category 'Texture2D(Drawing)'
+o/Users/svp/Documents/Videogame/Texture2D.h:106: warning: duplicate interface declaration for category 'Texture2D(Image)'
+o/Users/svp/Documents/Videogame/Texture2D.h:114: warning: duplicate interface declaration for category 'Texture2D(Text)'
+lSLF07#2@69"Compile /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m323050043#323050043#0(1975"In file included from /Users/svp/Documents/Videogame/Image.h:54,                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h:18,                 from /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m:10:/Users/svp/Documents/Videogame/Texture2D.h:54: error: redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'/Users/svp/Documents/Videogame/Classes/Texture2D.h:54: error: previous definition of 'kTexture2DPixelFormat_Automatic' was here/Users/svp/Documents/Videogame/Texture2D.h:55: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'/Users/svp/Documents/Videogame/Classes/Texture2D.h:55: error: previous definition of 'kTexture2DPixelFormat_RGBA8888' was here/Users/svp/Documents/Videogame/Texture2D.h:56: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'/Users/svp/Documents/Videogame/Classes/Texture2D.h:56: error: previous definition of 'kTexture2DPixelFormat_RGB565' was here/Users/svp/Documents/Videogame/Texture2D.h:57: error: redeclaration of enumerator 'kTexture2DPixelFormat_A8'/Users/svp/Documents/Videogame/Classes/Texture2D.h:57: error: previous definition of 'kTexture2DPixelFormat_A8' was here/Users/svp/Documents/Videogame/Texture2D.h:58: error: conflicting types for 'Texture2DPixelFormat'/Users/svp/Documents/Videogame/Classes/Texture2D.h:58: error: previous declaration of 'Texture2DPixelFormat' was here/Users/svp/Documents/Videogame/Texture2D.h:69: error: duplicate interface declaration for class 'Texture2D'/Users/svp/Documents/Videogame/Texture2D.h:78: error: redefinition of 'struct Texture2D'/Users/svp/Documents/Videogame/Texture2D.h:97: warning: duplicate interface declaration for category 'Texture2D(Drawing)'/Users/svp/Documents/Videogame/Texture2D.h:106: warning: duplicate interface declaration for category 'Texture2D(Image)'/Users/svp/Documents/Videogame/Texture2D.h:114: warning: duplicate interface declaration for category 'Texture2D(Text)'15(4@61"Redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'323050043#244#116#4(7@83"In file included from /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m323050043#18446744073709551615#0#0(6@61"/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m322866558#10#0#10#0#0"0(7@86"In file included from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h323050043#18446744073709551615#0#0(6@64"/Users/svp/Documents/Videogame/Classes/VideogameViewController.h322959115#18#0#18#0#0"0(7@60"In file included from /Users/svp/Documents/Videogame/Image.h323050043#18446744073709551615#0#0(6@38"/Users/svp/Documents/Videogame/Image.h323025948#54#0#54#0#0"0(13@107"Redeclaration of enumerator 'kTexture2DPixelFormat_Automatic' in /Users/svp/Documents/Videogame/Texture2D.h323050043#18446744073709551615#0#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#54#0#54#0#0"0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#54#0#54#0#0"0(13@65"Previous definition of 'kTexture2DPixelFormat_Automatic' was here323050043#360#128#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#54#0#54#0#35"previous definition of '*' was here0(4@60"Redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'323050043#488#115#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#55#0#55#0#0"0(13@64"Previous definition of 'kTexture2DPixelFormat_RGBA8888' was here323050043#603#127#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#55#0#55#0#35"previous definition of '*' was here0(4@58"Redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'323050043#730#113#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#56#0#56#0#0"0(13@62"Previous definition of 'kTexture2DPixelFormat_RGB565' was here323050043#843#125#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#56#0#56#0#35"previous definition of '*' was here0(4@54"Redeclaration of enumerator 'kTexture2DPixelFormat_A8'323050043#968#109#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#57#0#57#0#0"0(13@58"Previous definition of 'kTexture2DPixelFormat_A8' was here323050043#1077#121#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#57#0#57#0#35"previous definition of '*' was here0(4@44"Conflicting types for 'Texture2DPixelFormat'323050043#1198#99#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#58#0#58#0#25"conflicting types for '*'0(13@55"Previous declaration of 'Texture2DPixelFormat' was here323050043#1297#118#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#58#0#58#0#0"0(4@53"Duplicate interface declaration for class 'Texture2D'323050043#1415#108#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#69#0#69#0#0"0(4@34"Redefinition of 'struct Texture2D'323050043#1523#89#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#78#0#78#0#19"redefinition of '*'0(22@65"Duplicate interface declaration for category 'Texture2D(Drawing)'323050043#1612#122#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#97#0#97#0#0"0(22@63"Duplicate interface declaration for category 'Texture2D(Image)'323050043#1734#121#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#106#0#106#0#0"0(22@62"Duplicate interface declaration for category 'Texture2D(Text)'323050043#1855#120#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#114#0#114#0#0"0(0#0#61"/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m8612321088#1758"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv7 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-bfbbnwuzwebnxlapcjgrwieudbgb/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/VideogameAppDelegate.o1#
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/VideogameViewController.o /Users/svp/Documents/Videogame/Classes/VideogameViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323050043.727675
+e323050044.069177
+r0
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/VideogameViewController.o
+x/Users/svp/Documents/Videogame/Classes/VideogameViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/svp/Documents/Videogame/Image.h:54,
+o                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h:18,
+o                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.m:11:
+o/Users/svp/Documents/Videogame/Texture2D.h:54: error: redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:54: error: previous definition of 'kTexture2DPixelFormat_Automatic' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:55: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:55: error: previous definition of 'kTexture2DPixelFormat_RGBA8888' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:56: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:56: error: previous definition of 'kTexture2DPixelFormat_RGB565' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:57: error: redeclaration of enumerator 'kTexture2DPixelFormat_A8'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:57: error: previous definition of 'kTexture2DPixelFormat_A8' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:58: error: conflicting types for 'Texture2DPixelFormat'
+o/Users/svp/Documents/Videogame/Classes/Texture2D.h:58: error: previous declaration of 'Texture2DPixelFormat' was here
+o/Users/svp/Documents/Videogame/Texture2D.h:69: error: duplicate interface declaration for class 'Texture2D'
+o/Users/svp/Documents/Videogame/Texture2D.h:78: error: redefinition of 'struct Texture2D'
+o/Users/svp/Documents/Videogame/Texture2D.h:97: warning: duplicate interface declaration for category 'Texture2D(Drawing)'
+o/Users/svp/Documents/Videogame/Texture2D.h:106: warning: duplicate interface declaration for category 'Texture2D(Image)'
+o/Users/svp/Documents/Videogame/Texture2D.h:114: warning: duplicate interface declaration for category 'Texture2D(Text)'
+lSLF07#2@72"Compile /Users/svp/Documents/Videogame/Classes/VideogameViewController.m323050043#323050044#0(1978"In file included from /Users/svp/Documents/Videogame/Image.h:54,                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h:18,                 from /Users/svp/Documents/Videogame/Classes/VideogameViewController.m:11:/Users/svp/Documents/Videogame/Texture2D.h:54: error: redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'/Users/svp/Documents/Videogame/Classes/Texture2D.h:54: error: previous definition of 'kTexture2DPixelFormat_Automatic' was here/Users/svp/Documents/Videogame/Texture2D.h:55: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'/Users/svp/Documents/Videogame/Classes/Texture2D.h:55: error: previous definition of 'kTexture2DPixelFormat_RGBA8888' was here/Users/svp/Documents/Videogame/Texture2D.h:56: error: redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'/Users/svp/Documents/Videogame/Classes/Texture2D.h:56: error: previous definition of 'kTexture2DPixelFormat_RGB565' was here/Users/svp/Documents/Videogame/Texture2D.h:57: error: redeclaration of enumerator 'kTexture2DPixelFormat_A8'/Users/svp/Documents/Videogame/Classes/Texture2D.h:57: error: previous definition of 'kTexture2DPixelFormat_A8' was here/Users/svp/Documents/Videogame/Texture2D.h:58: error: conflicting types for 'Texture2DPixelFormat'/Users/svp/Documents/Videogame/Classes/Texture2D.h:58: error: previous declaration of 'Texture2DPixelFormat' was here/Users/svp/Documents/Videogame/Texture2D.h:69: error: duplicate interface declaration for class 'Texture2D'/Users/svp/Documents/Videogame/Texture2D.h:78: error: redefinition of 'struct Texture2D'/Users/svp/Documents/Videogame/Texture2D.h:97: warning: duplicate interface declaration for category 'Texture2D(Drawing)'/Users/svp/Documents/Videogame/Texture2D.h:106: warning: duplicate interface declaration for category 'Texture2D(Image)'/Users/svp/Documents/Videogame/Texture2D.h:114: warning: duplicate interface declaration for category 'Texture2D(Text)'15(4@61"Redeclaration of enumerator 'kTexture2DPixelFormat_Automatic'323050043#247#116#4(7@86"In file included from /Users/svp/Documents/Videogame/Classes/VideogameViewController.m323050043#18446744073709551615#0#0(6@64"/Users/svp/Documents/Videogame/Classes/VideogameViewController.m323025517#11#0#11#0#0"0(7@86"In file included from /Users/svp/Documents/Videogame/Classes/VideogameViewController.h323050043#18446744073709551615#0#0(6@64"/Users/svp/Documents/Videogame/Classes/VideogameViewController.h322959115#18#0#18#0#0"0(7@60"In file included from /Users/svp/Documents/Videogame/Image.h323050043#18446744073709551615#0#0(6@38"/Users/svp/Documents/Videogame/Image.h323025948#54#0#54#0#0"0(13@107"Redeclaration of enumerator 'kTexture2DPixelFormat_Automatic' in /Users/svp/Documents/Videogame/Texture2D.h323050043#18446744073709551615#0#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#54#0#54#0#0"0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#54#0#54#0#0"0(13@65"Previous definition of 'kTexture2DPixelFormat_Automatic' was here323050043#363#128#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#54#0#54#0#35"previous definition of '*' was here0(4@60"Redeclaration of enumerator 'kTexture2DPixelFormat_RGBA8888'323050043#491#115#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#55#0#55#0#0"0(13@64"Previous definition of 'kTexture2DPixelFormat_RGBA8888' was here323050043#606#127#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#55#0#55#0#35"previous definition of '*' was here0(4@58"Redeclaration of enumerator 'kTexture2DPixelFormat_RGB565'323050043#733#113#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#56#0#56#0#0"0(13@62"Previous definition of 'kTexture2DPixelFormat_RGB565' was here323050043#846#125#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#56#0#56#0#35"previous definition of '*' was here0(4@54"Redeclaration of enumerator 'kTexture2DPixelFormat_A8'323050043#971#109#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#57#0#57#0#0"0(13@58"Previous definition of 'kTexture2DPixelFormat_A8' was here323050043#1080#121#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#57#0#57#0#35"previous definition of '*' was here0(4@44"Conflicting types for 'Texture2DPixelFormat'323050043#1201#99#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#58#0#58#0#25"conflicting types for '*'0(13@55"Previous declaration of 'Texture2DPixelFormat' was here323050043#1300#118#0(6@50"/Users/svp/Documents/Videogame/Classes/Texture2D.h236543907#58#0#58#0#0"0(4@53"Duplicate interface declaration for class 'Texture2D'323050043#1418#108#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#69#0#69#0#0"0(4@34"Redefinition of 'struct Texture2D'323050043#1526#89#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#78#0#78#0#19"redefinition of '*'0(22@65"Duplicate interface declaration for category 'Texture2D(Drawing)'323050043#1615#122#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#97#0#97#0#0"0(22@63"Duplicate interface declaration for category 'Texture2D(Image)'323050043#1737#121#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#106#0#106#0#0"0(22@62"Duplicate interface declaration for category 'Texture2D(Text)'323050043#1858#120#0(6@42"/Users/svp/Documents/Videogame/Texture2D.h258813881#114#0#114#0#0"0(0#0#64"/Users/svp/Documents/Videogame/Classes/VideogameViewController.m8607143616#1764"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv7 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-bfbbnwuzwebnxlapcjgrwieudbgb/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Classes/VideogameViewController.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/VideogameViewController.o1#
+
+CCompileC build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/main.o /Users/svp/Documents/Videogame/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323050043.305447
+e323050043.685282
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/main.o
+x/Users/svp/Documents/Videogame/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/svp/Documents/Videogame/main.m323050043#323050043#0(0"0(0#0#37"/Users/svp/Documents/Videogame/main.m8606654752#1718"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv7 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-bfbbnwuzwebnxlapcjgrwieudbgb/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/main.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/svp/Documents/Videogame/MainWindow.xib
+s323050038.507002
+e323050039.931732
+r1
+xCompileXIB
+x/Users/svp/Documents/Videogame/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib323050038#323050039#0(0"0(0#0#45"/Users/svp/Documents/Videogame/MainWindow.xib8610796544#522"    cd /Users/svp/Documents/Videogame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/MainWindow.nib /Users/svp/Documents/Videogame/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/svp/Documents/Videogame/VideogameViewController.xib
+s323050038.546648
+e323050039.837399
+r1
+xCompileXIB
+x/Users/svp/Documents/Videogame/VideogameViewController.xib
+lSLF07#2@38"CompileXIB VideogameViewController.xib323050038#323050039#0(0"0(0#0#58"/Users/svp/Documents/Videogame/VideogameViewController.xib8610742880#548"    cd /Users/svp/Documents/Videogame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/VideogameViewController.nib /Users/svp/Documents/Videogame/VideogameViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/player.png player.png
+s323050039.837646
+e323050039.997924
+r1
+xCopyPNGFile
+x/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/player.png
+xplayer.png
+lSLF07#2@70"CopyPNGFile build/Release-iphoneos/Videogame.app/player.png player.png323050039#323050039#0(0"0(0#0#41"/Users/svp/Documents/Videogame/player.png8611849056#540"    cd /Users/svp/Documents/Videogame    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/svp/Documents/Videogame/player.png /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/player.png0#
+
+CCopyPNGFile /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/test.png test.png
+s323050039.931943
+e323050040.032170
+r1
+xCopyPNGFile
+x/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/test.png
+xtest.png
+lSLF07#2@66"CopyPNGFile build/Release-iphoneos/Videogame.app/test.png test.png323050039#323050040#0(0"0(0#0#39"/Users/svp/Documents/Videogame/test.png8611354560#536"    cd /Users/svp/Documents/Videogame    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/svp/Documents/Videogame/test.png /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/test.png0#
+
+CCpResource build/Release-iphoneos/Videogame.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s323050038.434565
+e323050038.497195
+r1
+xCpResource
+xbuild/Release-iphoneos/Videogame.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist323050038#323050038#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8611542880#503"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app0#
+
+CCpResource build/Release-iphoneos/Videogame.app/Shader.fsh Shaders/Shader.fsh
+s323050038.497397
+e323050038.540552
+r1
+xCpResource
+xbuild/Release-iphoneos/Videogame.app/Shader.fsh
+xShaders/Shader.fsh
+lSLF07#2@23"Copy Shaders/Shader.fsh323050038#323050038#0(0"0(0#0#49"/Users/svp/Documents/Videogame/Shaders/Shader.fsh8610988192#463"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Shaders/Shader.fsh /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app0#
+
+CCpResource build/Release-iphoneos/Videogame.app/Shader.vsh Shaders/Shader.vsh
+s323050038.501069
+e323050038.546514
+r1
+xCpResource
+xbuild/Release-iphoneos/Videogame.app/Shader.vsh
+xShaders/Shader.vsh
+lSLF07#2@23"Copy Shaders/Shader.vsh323050038#323050038#0(0"0(0#0#49"/Users/svp/Documents/Videogame/Shaders/Shader.vsh8610899808#463"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Shaders/Shader.vsh /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app0#
+
+CCreateUniversalBinary /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/Videogame normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app.dSYM /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/Videogame
+r0
+
+CLd /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv6/Videogame normal armv6
+r0
+
+CLd /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Objects-normal/armv7/Videogame normal armv7
+r0
+
+CProcessInfoPlistFile /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/Info.plist Videogame-Info.plist
+s323050038.438945
+e323050038.459891
+r1
+xProcessInfoPlistFile
+x/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/Info.plist
+xVideogame-Info.plist
+lSLF07#2@28"Process Videogame-Info.plist323050038#323050038#0(0"0(0#0#51"/Users/svp/Documents/Videogame/Videogame-Info.plist8611341696#544"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Videogame-Info.plist -genpkginfo /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/ResourceRules.plist -o /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/Info.plist0#
+
+CProcessPCH /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-bfbbnwuzwebnxlapcjgrwieudbgb/Videogame_Prefix.pch.gch Videogame_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323050040.034679
+e323050041.664271
+r1
+xProcessPCH
+x/var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-bfbbnwuzwebnxlapcjgrwieudbgb/Videogame_Prefix.pch.gch
+xVideogame_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Videogame_Prefix.pch323050040#323050041#0(0"0(0#0#51"/Users/svp/Documents/Videogame/Videogame_Prefix.pch8610775776#1620"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv7 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/svp/Documents/Videogame/Videogame_Prefix.pch -o /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-bfbbnwuzwebnxlapcjgrwieudbgb/Videogame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-ebwsvhmmosxkfcbbopthufmtqcjr/Videogame_Prefix.pch.gch Videogame_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323050040.032641
+e323050041.586905
+r1
+xProcessPCH
+x/var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-ebwsvhmmosxkfcbbopthufmtqcjr/Videogame_Prefix.pch.gch
+xVideogame_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Videogame_Prefix.pch323050040#323050041#0(0"0(0#0#51"/Users/svp/Documents/Videogame/Videogame_Prefix.pch8610890688#1612"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphoneos -I/Users/svp/Documents/Videogame/build/Release-iphoneos/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources/armv6 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/svp/Documents/Videogame/Videogame_Prefix.pch -o /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-ebwsvhmmosxkfcbbopthufmtqcjr/Videogame_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/svp/Library/MobileDevice/Provisioning Profiles/DAD02062-B988-47A3-8576-3CED2F764F9E.mobileprovision" /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/embedded.mobileprovision
+s323050044.991887
+e323050044.994708
+r1
+xProcessProductPackaging
+x/Users/svp/Library/MobileDevice/Provisioning Profiles/DAD02062-B988-47A3-8576-3CED2F764F9E.mobileprovision
+x/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/svp/Library/MobileDevice/Provisioning Profiles/DAD02062-B988-47A3-8576-3CED2F764F9E.mobileprovision" build/Release-iphoneos/Videogame.app/embedded.mobileprovision323050044#323050044#0(0"0(0#0#92"/Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/embedded.mobileprovision8609828672#409"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/svp/Library/MobileDevice/Provisioning Profiles/DAD02062-B988-47A3-8576-3CED2F764F9E.mobileprovision" -o /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame.xcent
+s323050044.994811
+e323050045.044271
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Videogame.build/Release-iphoneos/Videogame.build/Videogame.xcent323050044#323050045#0(0"0(0#0#101"/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame.xcent8611692032#424"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphoneos/Videogame.build/Videogame.xcent0#
+
+CTouch /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app
+r0
+
+CValidate /Users/svp/Documents/Videogame/build/Release-iphoneos/Videogame.app
+r0
+

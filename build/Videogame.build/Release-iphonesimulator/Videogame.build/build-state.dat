@@ -1,0 +1,2281 @@
+TVideogame
+v7
+r0
+t328114907.834664
+cCheck dependencies
+cProcessInfoPlistFile /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Info.plist Videogame-Info.plist
+cCompileXIB /Users/svp/Documents/Videogame/MainWindow.xib
+cCompileXIB /Users/svp/Documents/Videogame/VideogameViewController.xib
+cCpResource build/Release-iphonesimulator/Videogame.app/ship.png ship.png
+cCpResource build/Release-iphonesimulator/Videogame.app/spritesheet16.gif spritesheet16.gif
+cCpResource build/Release-iphonesimulator/Videogame.app/Run.png Run.png
+cCpResource build/Release-iphonesimulator/Videogame.app/Idle.png Idle.png
+cCpResource build/Release-iphonesimulator/Videogame.app/font1.fnt font1.fnt
+cCpResource build/Release-iphonesimulator/Videogame.app/font1.png font1.png
+cCpResource build/Release-iphonesimulator/Videogame.app/test1.fnt test1.fnt
+cCpResource build/Release-iphonesimulator/Videogame.app/test1.png test1.png
+cCpResource build/Release-iphonesimulator/Videogame.app/test2.fnt test2.fnt
+cCpResource build/Release-iphonesimulator/Videogame.app/test2.png test2.png
+cCpResource build/Release-iphonesimulator/Videogame.app/Layer0_0.png Layer0_0.png
+cCpResource build/Release-iphonesimulator/Videogame.app/Layer1_0.png Layer1_0.png
+cCpResource build/Release-iphonesimulator/Videogame.app/Layer0_1.png Layer0_1.png
+cCpResource build/Release-iphonesimulator/Videogame.app/Layer0_2.png Layer0_2.png
+cCpResource build/Release-iphonesimulator/Videogame.app/Layer1_1.png Layer1_1.png
+cCpResource build/Release-iphonesimulator/Videogame.app/Layer1_2.png Layer1_2.png
+cCpResource build/Release-iphonesimulator/Videogame.app/Layer2_0.png Layer2_0.png
+cCpResource build/Release-iphonesimulator/Videogame.app/Layer2_1.png Layer2_1.png
+cCpResource build/Release-iphonesimulator/Videogame.app/Layer2_2.png Layer2_2.png
+cCpResource build/Release-iphonesimulator/Videogame.app/SupportLayer.png SupportLayer.png
+cCpResource build/Release-iphonesimulator/Videogame.app/TileSet.png TileSet.png
+cCpResource build/Release-iphonesimulator/Videogame.app/Level1.tmx Level1.tmx
+cCpResource build/Release-iphonesimulator/Videogame.app/MainPlayer.png MainPlayer.png
+cCpResource build/Release-iphonesimulator/Videogame.app/background.mp3 background.mp3
+cCpResource build/Release-iphonesimulator/Videogame.app/photon.caf photon.caf
+cCpResource build/Release-iphonesimulator/Videogame.app/PlayerJump.wav PlayerJump.wav
+cCpResource build/Release-iphonesimulator/Videogame.app/PlayerFall.wav PlayerFall.wav
+cCpResource build/Release-iphonesimulator/Videogame.app/PlayerKilled.wav PlayerKilled.wav
+cCpResource build/Release-iphonesimulator/Videogame.app/Level2.tmx Level2.tmx
+cProcessPCH /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch.gch Videogame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/main.o /Users/svp/Documents/Videogame/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/VideogameAppDelegate.o /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/EAGLView.o /Users/svp/Documents/Videogame/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/VideogameViewController.o /Users/svp/Documents/Videogame/Classes/VideogameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image2D.o /Users/svp/Documents/Videogame/Image2D.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Texture2D.o /Users/svp/Documents/Videogame/Texture2D.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/SpriteSheet.o /Users/svp/Documents/Videogame/SpriteSheet.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/AngelCodeFont.o /Users/svp/Documents/Videogame/AngelCodeFont.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/CharDef.o /Users/svp/Documents/Videogame/CharDef.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Animation.o /Users/svp/Documents/Videogame/Animation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Frame.o /Users/svp/Documents/Videogame/Frame.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLDocument.o /Users/svp/Documents/Videogame/DDXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLElement.o /Users/svp/Documents/Videogame/DDXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLElementAdditions.o /Users/svp/Documents/Videogame/DDXMLElementAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLNode.o /Users/svp/Documents/Videogame/DDXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/NSStringAdditions.o /Users/svp/Documents/Videogame/NSStringAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/BGLayer.o /Users/svp/Documents/Videogame/BGLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Layer.o /Users/svp/Documents/Videogame/Layer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/TileSet.o /Users/svp/Documents/Videogame/TileSet.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/TiledMap.o /Users/svp/Documents/Videogame/TiledMap.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Player.o /Users/svp/Documents/Videogame/Player.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/GameScene.o /Users/svp/Documents/Videogame/GameScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/PlayerCommands.o /Users/svp/Documents/Videogame/PlayerCommands.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/InputSimulator.o /Users/svp/Documents/Videogame/InputSimulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/ExecutionCommand.o /Users/svp/Documents/Videogame/ExecutionCommand.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/SingletonSoundManager.o /Users/svp/Documents/Videogame/SingletonSoundManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/JumpManager.o /Users/svp/Documents/Videogame/JumpManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Videogame normal i386
+cGenerateDSYMFile /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app.dSYM /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Videogame
+cTouch /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioPlayer.h
+c000000004CC12884000000000000145D
+t1287727236
+s5213
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC1222F0000000000000A23
+t1287725615
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004CC1220900000000000A8450
+t1287725577
+s689232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004CC1226100000000000064FD
+t1287725665
+s25853
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004CC122610000000000001F45
+t1287725665
+s8005
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC1226400000000000246A0
+t1287725668
+s149152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC12308000000000000094F
+t1287725832
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004CC1230800000000000092AA
+t1287725832
+s37546
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004CC1230800000000000026AA
+t1287725832
+s9898
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC1230E0000000000019D40
+t1287725838
+s105792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml/tree.h
+c000000004CC10DA50000000000008F14
+t1287720357
+s36628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml/xpath.h
+c000000004CC10DA50000000000003F47
+t1287720357
+s16199
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml/xpathInternals.h
+c000000004CC10DA50000000000004BF8
+t1287720357
+s19448
+
+N/Users/svp/Documents/Videogame/AngelCodeFont.h
+c000000004D962CF3000000000000084E
+t1301687539
+s2126
+i<Foundation/Foundation.h>
+i"Image2D.h"
+i"CharDef.h"
+
+N/Users/svp/Documents/Videogame/AngelCodeFont.m
+c000000004D9D13A3000000000000337B
+t1302139811
+s13179
+i"AngelCodeFont.h"
+
+N/Users/svp/Documents/Videogame/Animation.h
+c000000004D99ED1500000000000004AA
+t1301933333
+s1194
+i<Foundation/Foundation.h>
+i"SpriteSheet.h"
+i"Frame.h"
+
+N/Users/svp/Documents/Videogame/Animation.m
+c000000004D99F1B20000000000000D5E
+t1301934514
+s3422
+i"Animation.h"
+
+N/Users/svp/Documents/Videogame/BGLayer.h
+c000000004DC364AC000000000000026B
+t1304650924
+s619
+i<Foundation/Foundation.h>
+i"Image2D.h"
+
+N/Users/svp/Documents/Videogame/BGLayer.m
+c000000004DC3650F00000000000008C0
+t1304651023
+s2240
+i"BGLayer.h"
+
+N/Users/svp/Documents/Videogame/CharDef.h
+c000000004D965577000000000000055F
+t1301697911
+s1375
+i<Foundation/Foundation.h>
+i"Image2D.h"
+
+N/Users/svp/Documents/Videogame/CharDef.m
+c000000004D96558C00000000000003DD
+t1301697932
+s989
+i"CharDef.h"
+
+N/Users/svp/Documents/Videogame/Classes/../MainWindow.xib
+c000000004D8E55FE0000000000005532
+t1301173758
+s21810
+
+N/Users/svp/Documents/Videogame/Classes/../VideogameViewController.xib
+c000000004D8E55FE00000000000043F5
+t1301173758
+s17397
+
+N/Users/svp/Documents/Videogame/Classes/EAGLView.h
+c000000004D8E55FE00000000000003E1
+t1301173758
+s993
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/svp/Documents/Videogame/Classes/EAGLView.m
+c000000004D8E55FE0000000000000EE9
+t1301173758
+s3817
+i<QuartzCore/QuartzCore.h>
+i"EAGLView.h"
+
+N/Users/svp/Documents/Videogame/Classes/Texture2D.h
+c000000004869282300000000000012A9
+t1214851107
+s4777
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.h
+c000000004D9D126800000000000001EE
+t1302139496
+s494
+i<UIKit/UIKit.h>
+
+N/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m
+c000000004D9D12760000000000000507
+t1302139510
+s1287
+i"VideogameAppDelegate.h"
+i"VideogameViewController.h"
+
+N/Users/svp/Documents/Videogame/Classes/VideogameViewController.h
+c000000004DDD528E0000000000000434
+t1306350222
+s1076
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+i"Texture2D.h"
+i"Image2D.h"
+i"SpriteSheet.h"
+i"AngelCodeFont.h"
+i"Animation.h"
+i"BGLayer.h"
+i"TiledMap.h"
+i"Player.h"
+i"GameScene.h"
+
+N/Users/svp/Documents/Videogame/Classes/VideogameViewController.m
+c000000004DDD864900000000000020C7
+t1306363465
+s8391
+i<QuartzCore/QuartzCore.h>
+i"VideogameViewController.h"
+i"EAGLView.h"
+
+N/Users/svp/Documents/Videogame/Command.h
+c000000004DC7096900000000000000D6
+t1304889705
+s214
+i<Foundation/Foundation.h>
+
+N/Users/svp/Documents/Videogame/Command.m
+c000000004DC7096900000000000000BD
+t1304889705
+s189
+i"Command.h"
+
+N/Users/svp/Documents/Videogame/DDXML.h
+c0000000049FF66990000000000000049
+t1241474713
+s73
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/svp/Documents/Videogame/DDXMLDocument.h
+c0000000049FF66BF0000000000000807
+t1241474751
+s2055
+i<Foundation/Foundation.h>
+i"DDXMLElement.h"
+i"DDXMLNode.h"
+
+N/Users/svp/Documents/Videogame/DDXMLDocument.m
+c0000000049FF66BC00000000000009C5
+t1241474748
+s2501
+i"DDXMLDocument.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+
+N/Users/svp/Documents/Videogame/DDXMLElement.h
+c0000000049FF66B900000000000006B0
+t1241474745
+s1712
+i<Foundation/Foundation.h>
+i"DDXMLNode.h"
+
+N/Users/svp/Documents/Videogame/DDXMLElement.m
+c0000000049FF66B50000000000003E24
+t1241474741
+s15908
+i"DDXMLElement.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+
+N/Users/svp/Documents/Videogame/DDXMLElementAdditions.h
+c0000000049FF66B20000000000000264
+t1241474738
+s612
+i<Foundation/Foundation.h>
+i"DDXML.h"
+
+N/Users/svp/Documents/Videogame/DDXMLElementAdditions.m
+c0000000049FF66AF0000000000000C1D
+t1241474735
+s3101
+i"DDXMLElementAdditions.h"
+
+N/Users/svp/Documents/Videogame/DDXMLNode.h
+c0000000049FF66AB0000000000001392
+t1241474731
+s5010
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/svp/Documents/Videogame/DDXMLNode.m
+c0000000049FF66A7000000000000B83F
+t1241474727
+s47167
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/svp/Documents/Videogame/DDXMLPrivate.h
+c0000000049FF66A300000000000009BB
+t1241474723
+s2491
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/svp/Documents/Videogame/ExecutionCommand.h
+c000000004DDC14D400000000000001EF
+t1306268884
+s495
+i<Foundation/Foundation.h>
+
+N/Users/svp/Documents/Videogame/ExecutionCommand.m
+c000000004DC70FB800000000000001BD
+t1304891320
+s445
+i"ExecutionCommand.h"
+
+N/Users/svp/Documents/Videogame/Frame.h
+c000000004D99ECF90000000000000209
+t1301933305
+s521
+i<Foundation/Foundation.h>
+i"Image2D.h"
+
+N/Users/svp/Documents/Videogame/Frame.m
+c000000004D99ED0900000000000001B3
+t1301933321
+s435
+i"Frame.h"
+
+N/Users/svp/Documents/Videogame/GameScene.h
+c000000004DDD51F40000000000000393
+t1306350068
+s915
+i<Foundation/Foundation.h>
+i"TiledMap.h"
+i"Player.h"
+i"BGLayer.h"
+i"InputSimulator.h"
+i"PlayerCommands.h"
+i"SingletonSoundManager.h"
+
+N/Users/svp/Documents/Videogame/GameScene.m
+c000000004DDDDEF30000000000001644
+t1306386163
+s5700
+i"GameScene.h"
+
+N/Users/svp/Documents/Videogame/Idle.png
+c000000004A0C3F8200000000000026F5
+t1242316674
+s9973
+
+N/Users/svp/Documents/Videogame/Image.h
+c000000004D90C49C0000000000001124
+t1301333148
+s4388
+i<Foundation/Foundation.h>
+i"Texture2D.h"
+
+N/Users/svp/Documents/Videogame/Image.m
+c000000004D90CC0100000000000020C7
+t1301335041
+s8391
+i"Image.h"
+
+N/Users/svp/Documents/Videogame/Image2D.h
+c000000004DBC5DCD000000000000149B
+t1304190413
+s5275
+i<Foundation/Foundation.h>
+i"Texture2D.h"
+i"VideogameAppDelegate.h"
+
+N/Users/svp/Documents/Videogame/Image2D.m
+c000000004D9D12E800000000000033BB
+t1302139624
+s13243
+i"Image2D.h"
+
+N/Users/svp/Documents/Videogame/Image2DEngine.h
+c000000004D913541000000000000114D
+t1301361985
+s4429
+i<Foundation/Foundation.h>
+i"Texture2DEngine.h"
+
+N/Users/svp/Documents/Videogame/Image2DEngine.m
+c000000004D9133D6000000000000211B
+t1301361622
+s8475
+i"Image2DEngine.h"
+
+N/Users/svp/Documents/Videogame/InputSimulator.h
+c000000004DC72C27000000000000021F
+t1304898599
+s543
+i<Foundation/Foundation.h>
+i"PlayerCommands.h"
+i"ExecutionCommand.h"
+
+N/Users/svp/Documents/Videogame/InputSimulator.m
+c000000004DC72DDB00000000000005D8
+t1304899035
+s1496
+i"InputSimulator.h"
+
+N/Users/svp/Documents/Videogame/Jump.png
+c000000004D92C20A000000000000E7EA
+t1301463562
+s59370
+
+N/Users/svp/Documents/Videogame/JumpManager.h
+c000000004DDD73520000000000000207
+t1306358610
+s519
+i<Foundation/Foundation.h>
+
+N/Users/svp/Documents/Videogame/JumpManager.m
+c000000004DDE6B5200000000000003F1
+t1306422098
+s1009
+i"JumpManager.h"
+
+N/Users/svp/Documents/Videogame/Jumping.png
+c000000004A0C3F820000000000012541
+t1242316674
+s75073
+
+N/Users/svp/Documents/Videogame/Layer.h
+c000000004DDDDE9700000000000004F8
+t1306386071
+s1272
+i<Foundation/Foundation.h>
+
+N/Users/svp/Documents/Videogame/Layer.m
+c0000000049FF7ED800000000000003BA
+t1241480920
+s954
+i"Layer.h"
+
+N/Users/svp/Documents/Videogame/Layer0_0.png
+c000000004D9D3E660000000000021629
+t1302150758
+s136745
+
+N/Users/svp/Documents/Videogame/Layer0_1.png
+c000000004D9D4F000000000000022EB8
+t1302155008
+s143032
+
+N/Users/svp/Documents/Videogame/Layer0_2.png
+c000000004D9D4F120000000000022C62
+t1302155026
+s142434
+
+N/Users/svp/Documents/Videogame/Layer1_0.png
+c000000004D9D3EF2000000000003F514
+t1302150898
+s259348
+
+N/Users/svp/Documents/Videogame/Layer1_1.png
+c000000004D9D4F4A000000000003CEA7
+t1302155082
+s249511
+
+N/Users/svp/Documents/Videogame/Layer1_2.png
+c000000004D9D4F5B000000000003DD89
+t1302155099
+s253321
+
+N/Users/svp/Documents/Videogame/Layer2_0.png
+c000000004D9D4F73000000000001A0BC
+t1302155123
+s106684
+
+N/Users/svp/Documents/Videogame/Layer2_1.png
+c000000004D9D4F83000000000002304A
+t1302155139
+s143434
+
+N/Users/svp/Documents/Videogame/Layer2_2.png
+c000000004D9D4F9E000000000002BAA0
+t1302155166
+s178848
+
+N/Users/svp/Documents/Videogame/Level1.tmx
+c000000004DBC7A7C0000000000002694
+t1304197756
+s9876
+
+N/Users/svp/Documents/Videogame/Level2.tmx
+c000000004DDDDD6700000000000070E5
+t1306385767
+s28901
+
+N/Users/svp/Documents/Videogame/MainPlayer.png
+c000000004DBC82F40000000000037636
+t1304199924
+s226870
+
+N/Users/svp/Documents/Videogame/MainWindow.xib
+c000000004D8E55FE0000000000005532
+t1301173758
+s21810
+
+N/Users/svp/Documents/Videogame/NSStringAdditions.h
+c0000000049FF66A000000000000000FB
+t1241474720
+s251
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/svp/Documents/Videogame/NSStringAdditions.m
+c0000000049FF669C0000000000000175
+t1241474716
+s373
+i"NSStringAdditions.h"
+
+N/Users/svp/Documents/Videogame/OLayer0_0.png
+c000000004DBB092B000000000001A45D
+t1304103211
+s107613
+
+N/Users/svp/Documents/Videogame/OLayer0_1.png
+c000000004DBB094000000000000191B9
+t1304103232
+s102841
+
+N/Users/svp/Documents/Videogame/OLayer0_2.png
+c000000004DBB094E00000000000192F7
+t1304103246
+s103159
+
+N/Users/svp/Documents/Videogame/PLayer0_0.png
+c000000004DBB092B000000000001A45D
+t1304103211
+s107613
+
+N/Users/svp/Documents/Videogame/PLayer0_1.png
+c000000004DBB094000000000000191B9
+t1304103232
+s102841
+
+N/Users/svp/Documents/Videogame/PLayer0_2.png
+c000000004DBB094E00000000000192F7
+t1304103246
+s103159
+
+N/Users/svp/Documents/Videogame/Player.h
+c000000004DDD8BD200000000000004A4
+t1306364882
+s1188
+i<Foundation/Foundation.h>
+i"Animation.h"
+i"SpriteSheet.h"
+i"PlayerCommands.h"
+i"JumpManager.h"
+
+N/Users/svp/Documents/Videogame/Player.m
+c000000004DDDDDFB00000000000012D5
+t1306385915
+s4821
+i"Player.h"
+i"SingletonSoundManager.h"
+
+N/Users/svp/Documents/Videogame/Player.png
+c000000004DBC82F40000000000037636
+t1304199924
+s226870
+
+N/Users/svp/Documents/Videogame/Player1.png
+c000000004D92B231000000000001EF59
+t1301459505
+s126809
+
+N/Users/svp/Documents/Videogame/Player2.png
+c000000004D92B312000000000001EF6B
+t1301459730
+s126827
+
+N/Users/svp/Documents/Videogame/Player3.gif
+c000000004D92B587000000000000A8B1
+t1301460359
+s43185
+
+N/Users/svp/Documents/Videogame/Player3.png
+c000000004D92B6210000000000020627
+t1301460513
+s132647
+
+N/Users/svp/Documents/Videogame/PlayerCommands.h
+c000000004DDD5A940000000000000200
+t1306352276
+s512
+i<Foundation/Foundation.h>
+
+N/Users/svp/Documents/Videogame/PlayerCommands.m
+c000000004DDD5AB8000000000000022A
+t1306352312
+s554
+i"PlayerCommands.h"
+
+N/Users/svp/Documents/Videogame/PlayerFall.wav
+c000000004DDC7351000000000003E038
+t1306293073
+s254008
+
+N/Users/svp/Documents/Videogame/PlayerJump.caf
+c000000004DDC7595000000000000F000
+t1306293653
+s61440
+
+N/Users/svp/Documents/Videogame/PlayerJump.mp3
+c000000004DDC70E300000000000039A4
+t1306292451
+s14756
+
+N/Users/svp/Documents/Videogame/PlayerJump.wav
+c000000004DDC7352000000000000E038
+t1306293074
+s57400
+
+N/Users/svp/Documents/Videogame/PlayerKilled.wav
+c000000004DDC73520000000000026038
+t1306293074
+s155704
+
+N/Users/svp/Documents/Videogame/Prueba.png
+c000000004D90ED1B00000000000001C9
+t1301343515
+s457
+
+N/Users/svp/Documents/Videogame/Rock.png
+c000000004D9DE19F000000000000B8F6
+t1302192543
+s47350
+
+N/Users/svp/Documents/Videogame/Run.png
+c000000004A0C3F820000000000013907
+t1242316674
+s80135
+
+N/Users/svp/Documents/Videogame/Shaders/Shader.fsh
+c000000004D8E55FE00000000000000DD
+t1301173758
+s221
+
+N/Users/svp/Documents/Videogame/Shaders/Shader.vsh
+c000000004D8E55FE0000000000000163
+t1301173758
+s355
+
+N/Users/svp/Documents/Videogame/SingletonSoundManager.h
+c000000004DDC65F000000000000006D0
+t1306289648
+s1744
+i<Foundation/Foundation.h>
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<AudioToolbox/AudioToolbox.h>
+i<AVFoundation/AVAudioPlayer.h>
+
+N/Users/svp/Documents/Videogame/SingletonSoundManager.m
+c000000004DDC66030000000000002F5C
+t1306289667
+s12124
+i"SingletonSoundManager.h"
+
+N/Users/svp/Documents/Videogame/SpriteSheet.h
+c000000004DBC5DE0000000000000067B
+t1304190432
+s1659
+i<Foundation/Foundation.h>
+i"Image2D.h"
+
+N/Users/svp/Documents/Videogame/SpriteSheet.m
+c000000004DBC5E02000000000000111E
+t1304190466
+s4382
+i"SpriteSheet.h"
+
+N/Users/svp/Documents/Videogame/SupportLayer.png
+c000000004DBB12CC0000000000001063
+t1304105676
+s4195
+
+N/Users/svp/Documents/Videogame/Texture2D.h
+c000000004D92233B00000000000012D5
+t1301422907
+s4821
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/svp/Documents/Videogame/Texture2D.m
+c000000004D92233D0000000000002A19
+t1301422909
+s10777
+i<OpenGLES/ES1/glext.h>
+i"Texture2D.h"
+
+N/Users/svp/Documents/Videogame/Texture2DEngine.h
+c000000004D9133A200000000000012ED
+t1301361570
+s4845
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/svp/Documents/Videogame/Texture2DEngine.m
+c000000004D9133AE0000000000002A37
+t1301361582
+s10807
+i<OpenGLES/ES1/glext.h>
+i"Texture2DEngine.h"
+
+N/Users/svp/Documents/Videogame/ThePlayer.png
+c000000004D92C563000000000001E7A6
+t1301464419
+s124838
+
+N/Users/svp/Documents/Videogame/TileSet.h
+c0000000049FF7FC200000000000005DB
+t1241481154
+s1499
+i<Foundation/Foundation.h>
+i"SpriteSheet.h"
+
+N/Users/svp/Documents/Videogame/TileSet.m
+c000000004D9D46800000000000000595
+t1302152832
+s1429
+i"TileSet.h"
+
+N/Users/svp/Documents/Videogame/TileSet.png
+c000000004DBC68840000000000008192
+t1304193156
+s33170
+
+N/Users/svp/Documents/Videogame/TiledMap.h
+c0000000049FF82110000000000000A20
+t1241481745
+s2592
+i<Foundation/Foundation.h>
+i"DDXML.h"
+i"SpriteSheet.h"
+i"TileSet.h"
+i"Layer.h"
+
+N/Users/svp/Documents/Videogame/TiledMap.m
+c000000004D9EC1E0000000000000396B
+t1302249952
+s14699
+i"TiledMap.h"
+
+N/Users/svp/Documents/Videogame/VideogameViewController.xib
+c000000004D8E55FE00000000000043F5
+t1301173758
+s17397
+
+N/Users/svp/Documents/Videogame/Videogame_Prefix.pch
+c000000004D8E55FE000000000000013C
+t1301173758
+s316
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/svp/Documents/Videogame/background.mp3
+c000000004D9A89D50000000000DF7288
+t1301973461
+s14643848
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app
+t1306422107
+s1768
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app.dSYM
+t1306422107
+s102
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Idle.png
+t1301461652
+s9973
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Info.plist
+t1302107736
+s623
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Jump.png
+t1301463716
+s59370
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Jumping.png
+t1301461795
+s75073
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Layer0_0.png
+t1302152027
+s136745
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Layer0_1.png
+t1302240712
+s143032
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Layer0_2.png
+t1302240712
+s142434
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Layer1_0.png
+t1302152027
+s259348
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Layer1_1.png
+t1302240712
+s249511
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Layer1_2.png
+t1302240712
+s253321
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Layer2_0.png
+t1302240712
+s106684
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Layer2_1.png
+t1302240712
+s143434
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Layer2_2.png
+t1302240712
+s178848
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Level1.tmx
+t1304197791
+s9876
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Level2.tmx
+t1306385916
+s28901
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/MainPlayer.png
+t1305313417
+s226870
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/MainWindow.nib
+t1301461652
+s1175
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/OLayer0_0.png
+t1304102861
+s427117
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/OLayer0_1.png
+t1304102861
+s491652
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/OLayer0_2.png
+t1304102861
+s485006
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/PLayer0_0.png
+t1304103467
+s107613
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/PLayer0_1.png
+t1304103467
+s102841
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/PLayer0_2.png
+t1304103467
+s103159
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/PkgInfo
+t1302107736
+s8
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Player.png
+t1304200502
+s226870
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Player1.png
+t1301459616
+s126809
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Player2.png
+t1301460060
+s126827
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Player3.gif
+t1301460452
+s43185
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Player3.png
+t1301460568
+s132647
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/PlayerFall.wav
+t1306294659
+s254008
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/PlayerJump.caf
+t1306293741
+s61440
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/PlayerJump.mp3
+t1306292787
+s14756
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/PlayerJump.wav
+t1306293141
+s57400
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/PlayerKilled.wav
+t1306294659
+s155704
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Prueba.png
+t1301360761
+s457
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Rock.png
+t1302194119
+s47350
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Run.png
+t1301461652
+s80135
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Shader.fsh
+t1301461650
+s221
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Shader.vsh
+t1301461650
+s355
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/SupportLayer.png
+t1304105747
+s4195
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/ThePlayer.png
+t1301464570
+s124838
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/TileSet.png
+t1304193783
+s33170
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Videogame
+t1306422107
+s215636
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/VideogameViewController.nib
+t1301461652
+s873
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/background.mp3
+t1306290610
+s14643848
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/font1.fnt
+t1301687541
+s11426
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/font1.png
+t1301687541
+s14634
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/music.mp3
+t1306291107
+s1363216
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/photon.caf
+t1306292063
+s102288
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/player.png
+t1301461652
+s4202
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/ship.png
+t1304200032
+s4202
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/spritesheet16.gif
+t1301461652
+s8305
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/test1.fnt
+t1301687541
+s11497
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/test1.png
+t1301687541
+s99394
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/test2.fnt
+t1301700422
+s10827
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/test2.png
+t1301700422
+s8575
+
+N/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/zerox4.gif
+t1301452702
+s111243
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/AngelCodeFont.o
+t1304190418
+s58936
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Animation.o
+t1304190435
+s51292
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/BGLayer.o
+t1304654231
+s48860
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/CharDef.o
+t1304190419
+s50396
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Command.o
+t2
+s0
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLDocument.o
+t1302108949
+s16124
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLElement.o
+t1302108950
+s42320
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLElementAdditions.o
+t1302108949
+s14976
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLNode.o
+t1302108951
+s79508
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/EAGLView.o
+t1302108946
+s46704
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/ExecutionCommand.o
+t1306276113
+s8680
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Frame.o
+t1304190419
+s42672
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/GameScene.o
+t1306386166
+s60832
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image.o
+t1301361000
+s30860
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image2D.o
+t1304190418
+s74668
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image2DEngine.o
+t1301361626
+s31892
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/InputSimulator.o
+t1306385827
+s11388
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/JumpManager.o
+t1306422106
+s10708
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Layer.o
+t1306386085
+s11632
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/NSStringAdditions.o
+t1302108950
+s7224
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Player.o
+t1306385918
+s60784
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/PlayerCommands.o
+t1306385827
+s11420
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/SingletonSoundManager.o
+t1306289668
+s31808
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/SpriteSheet.o
+t1304190468
+s53256
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Texture2D.o
+t1302108947
+s26920
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Texture2DEngine.o
+t1301361628
+s27324
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/TileSet.o
+t1304190435
+s49140
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/TiledMap.o
+t1306386086
+s74468
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Videogame.LinkFileList
+c000000004DDDDD9F0000000000000D6E
+t1306385823
+s3438
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/VideogameAppDelegate.o
+t1306386085
+s56812
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/VideogameViewController.o
+t1306386085
+s66604
+
+N/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/main.o
+t1302108945
+s6272
+
+N/Users/svp/Documents/Videogame/font1.fnt
+c0000000049E26AC20000000000002CA2
+t1239575234
+s11426
+
+N/Users/svp/Documents/Videogame/font1.png
+c0000000049E26AC3000000000000392A
+t1239575235
+s14634
+
+N/Users/svp/Documents/Videogame/main.m
+c000000004D8E55FE000000000000016C
+t1301173758
+s364
+i<UIKit/UIKit.h>
+
+N/Users/svp/Documents/Videogame/music.mp3
+c000000004A141DAB000000000014CD10
+t1242832299
+s1363216
+
+N/Users/svp/Documents/Videogame/photon.caf
+c000000004A140D430000000000018F90
+t1242828099
+s102288
+
+N/Users/svp/Documents/Videogame/player.png
+c00000000498B73AA000000000000106A
+t1233875882
+s4202
+
+N/Users/svp/Documents/Videogame/ship.png
+c00000000498B73AA000000000000106A
+t1233875882
+s4202
+
+N/Users/svp/Documents/Videogame/spritesheet16.gif
+c00000000498B7E460000000000002071
+t1233878598
+s8305
+
+N/Users/svp/Documents/Videogame/test1.fnt
+c0000000049DB30820000000000002CE9
+t1239101570
+s11497
+
+N/Users/svp/Documents/Videogame/test1.png
+c0000000049DB30840000000000018442
+t1239101572
+s99394
+
+N/Users/svp/Documents/Videogame/test2.fnt
+c000000004D965D850000000000002A4B
+t1301699973
+s10827
+
+N/Users/svp/Documents/Videogame/test2.png
+c000000004D965D85000000000000217F
+t1301699973
+s8575
+
+N/Users/svp/Documents/Videogame/zerox4.gif
+c000000004D9290D4000000000001B28B
+t1301450964
+s111243
+
+N/var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-dmmugflgypdqkndqbejekidmugov/Videogame_Prefix.pch.gch
+t1301461654
+s15113424
+
+N/var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch.gch
+t1302108944
+s15113424
+
+NVideogame-Info.plist
+c000000004D9B436B0000000000000399
+t1302020971
+s921
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies328114905#328114905#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/AngelCodeFont.o /Users/svp/Documents/Videogame/AngelCodeFont.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325883217.915465
+e325883218.698689
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/AngelCodeFont.o
+x/Users/svp/Documents/Videogame/AngelCodeFont.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/svp/Documents/Videogame/AngelCodeFont.m325883217#325883218#0(0"0(0#0#46"/Users/svp/Documents/Videogame/AngelCodeFont.m8621305952#2049"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/AngelCodeFont.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/AngelCodeFont.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Animation.o /Users/svp/Documents/Videogame/Animation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325883235.003105
+e325883235.907636
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Animation.o
+x/Users/svp/Documents/Videogame/Animation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/svp/Documents/Videogame/Animation.m325883235#325883235#0(0"0(0#0#42"/Users/svp/Documents/Videogame/Animation.m8621210432#2041"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Animation.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Animation.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/BGLayer.o /Users/svp/Documents/Videogame/BGLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326347031.065454
+e326347031.598399
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/BGLayer.o
+x/Users/svp/Documents/Videogame/BGLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/svp/Documents/Videogame/BGLayer.m326347031#326347031#0(0"0(0#0#40"/Users/svp/Documents/Videogame/BGLayer.m8619178752#2037"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/BGLayer.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/BGLayer.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/CharDef.o /Users/svp/Documents/Videogame/CharDef.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325883218.700444
+e325883219.362880
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/CharDef.o
+x/Users/svp/Documents/Videogame/CharDef.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/svp/Documents/Videogame/CharDef.m325883218#325883219#0(0"0(0#0#40"/Users/svp/Documents/Videogame/CharDef.m8621155488#2037"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/CharDef.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/CharDef.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Command.o /Users/svp/Documents/Videogame/Command.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLDocument.o /Users/svp/Documents/Videogame/DDXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323801748.866073
+e323801749.388134
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLDocument.o
+x/Users/svp/Documents/Videogame/DDXMLDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/svp/Documents/Videogame/DDXMLDocument.m323801748#323801749#0(0"0(0#0#46"/Users/svp/Documents/Videogame/DDXMLDocument.m8619873152#2049"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/DDXMLDocument.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLDocument.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLElement.o /Users/svp/Documents/Videogame/DDXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323801749.054537
+e323801750.051397
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLElement.o
+x/Users/svp/Documents/Videogame/DDXMLElement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/svp/Documents/Videogame/DDXMLElement.m323801749#323801750#0(0"0(0#0#45"/Users/svp/Documents/Videogame/DDXMLElement.m8620289376#2047"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/DDXMLElement.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLElement.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLElementAdditions.o /Users/svp/Documents/Videogame/DDXMLElementAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323801749.388270
+e323801749.829451
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLElementAdditions.o
+x/Users/svp/Documents/Videogame/DDXMLElementAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/svp/Documents/Videogame/DDXMLElementAdditions.m323801749#323801749#0(0"0(0#0#54"/Users/svp/Documents/Videogame/DDXMLElementAdditions.m8622022208#2065"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/DDXMLElementAdditions.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLElementAdditions.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLNode.o /Users/svp/Documents/Videogame/DDXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323801749.829590
+e323801751.321368
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLNode.o
+x/Users/svp/Documents/Videogame/DDXMLNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/svp/Documents/Videogame/DDXMLNode.m323801749#323801751#0(0"0(0#0#42"/Users/svp/Documents/Videogame/DDXMLNode.m8619171104#2041"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/DDXMLNode.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/DDXMLNode.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/EAGLView.o /Users/svp/Documents/Videogame/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323801745.662181
+e323801746.238686
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/EAGLView.o
+x/Users/svp/Documents/Videogame/Classes/EAGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/svp/Documents/Videogame/Classes/EAGLView.m323801745#323801746#0(0"0(0#0#49"/Users/svp/Documents/Videogame/Classes/EAGLView.m8621862848#2047"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Classes/EAGLView.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/EAGLView.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/ExecutionCommand.o /Users/svp/Documents/Videogame/ExecutionCommand.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327968913.103855
+e327968913.397631
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/ExecutionCommand.o
+x/Users/svp/Documents/Videogame/ExecutionCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/svp/Documents/Videogame/ExecutionCommand.m327968913#327968913#0(0"0(0#0#49"/Users/svp/Documents/Videogame/ExecutionCommand.m8602614592#2055"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/ExecutionCommand.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/ExecutionCommand.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Frame.o /Users/svp/Documents/Videogame/Frame.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325883219.255984
+e325883219.656127
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Frame.o
+x/Users/svp/Documents/Videogame/Frame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/svp/Documents/Videogame/Frame.m325883219#325883219#0(0"0(0#0#38"/Users/svp/Documents/Videogame/Frame.m8620341632#2033"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Frame.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Frame.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/GameScene.o /Users/svp/Documents/Videogame/GameScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328078965.463160
+e328078966.273241
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/GameScene.o
+x/Users/svp/Documents/Videogame/GameScene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/svp/Documents/Videogame/GameScene.m328078965#328078966#0(0"0(0#0#42"/Users/svp/Documents/Videogame/GameScene.m8607145216#2041"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/GameScene.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/GameScene.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image.o /Users/svp/Documents/Videogame/Image.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323053800.118891
+e323053800.813174
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image.o
+x/Users/svp/Documents/Videogame/Image.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/svp/Documents/Videogame/Image.m323053800#323053800#0(0"0(0#0#38"/Users/svp/Documents/Videogame/Image.m8608873056#1927"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-dmmugflgypdqkndqbejekidmugov/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Image.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image2D.o /Users/svp/Documents/Videogame/Image2D.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325883217.570496
+e325883218.920218
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image2D.o
+x/Users/svp/Documents/Videogame/Image2D.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/svp/Documents/Videogame/Image2D.m325883217#325883219#0(0"0(0#0#40"/Users/svp/Documents/Videogame/Image2D.m8621477760#2037"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Image2D.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image2D.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image2DEngine.o /Users/svp/Documents/Videogame/Image2DEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323054426.239669
+e323054427.743467
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image2DEngine.o
+x/Users/svp/Documents/Videogame/Image2DEngine.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/svp/Documents/Videogame/Image2DEngine.m323054426#323054427#0(0"0(0#0#46"/Users/svp/Documents/Videogame/Image2DEngine.m8643540928#1943"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-dmmugflgypdqkndqbejekidmugov/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Image2DEngine.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Image2DEngine.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/InputSimulator.o /Users/svp/Documents/Videogame/InputSimulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328078627.213932
+e328078627.641864
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/InputSimulator.o
+x/Users/svp/Documents/Videogame/InputSimulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/svp/Documents/Videogame/InputSimulator.m328078627#328078627#0(0"0(0#0#47"/Users/svp/Documents/Videogame/InputSimulator.m8605008704#2051"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/InputSimulator.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/InputSimulator.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/JumpManager.o /Users/svp/Documents/Videogame/JumpManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328114905.322287
+e328114906.766479
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/JumpManager.o
+x/Users/svp/Documents/Videogame/JumpManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/svp/Documents/Videogame/JumpManager.m328114905#328114906#0(0"0(0#0#44"/Users/svp/Documents/Videogame/JumpManager.m7308604867170624512#2045"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/JumpManager.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/JumpManager.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Layer.o /Users/svp/Documents/Videogame/Layer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328078885.059562
+e328078885.418971
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Layer.o
+x/Users/svp/Documents/Videogame/Layer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/svp/Documents/Videogame/Layer.m328078885#328078885#0(0"0(0#0#38"/Users/svp/Documents/Videogame/Layer.m8604763968#2033"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Layer.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Layer.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/NSStringAdditions.o /Users/svp/Documents/Videogame/NSStringAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323801750.051536
+e323801750.443727
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/NSStringAdditions.o
+x/Users/svp/Documents/Videogame/NSStringAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/svp/Documents/Videogame/NSStringAdditions.m323801750#323801750#0(0"0(0#0#50"/Users/svp/Documents/Videogame/NSStringAdditions.m8618750304#2057"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/NSStringAdditions.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/NSStringAdditions.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Player.o /Users/svp/Documents/Videogame/Player.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328078716.968125
+e328078718.946995
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Player.o
+x/Users/svp/Documents/Videogame/Player.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/svp/Documents/Videogame/Player.m328078716#328078718#0(0"0(0#0#39"/Users/svp/Documents/Videogame/Player.m8602797504#2035"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Player.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Player.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/PlayerCommands.o /Users/svp/Documents/Videogame/PlayerCommands.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328078626.858730
+e328078627.324457
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/PlayerCommands.o
+x/Users/svp/Documents/Videogame/PlayerCommands.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/svp/Documents/Videogame/PlayerCommands.m328078626#328078627#0(0"0(0#0#47"/Users/svp/Documents/Videogame/PlayerCommands.m8604042016#2051"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/PlayerCommands.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/PlayerCommands.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/SingletonSoundManager.o /Users/svp/Documents/Videogame/SingletonSoundManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327982467.912265
+e327982468.574924
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/SingletonSoundManager.o
+x/Users/svp/Documents/Videogame/SingletonSoundManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/svp/Documents/Videogame/SingletonSoundManager.m327982467#327982468#0(0"0(0#0#54"/Users/svp/Documents/Videogame/SingletonSoundManager.m8613305440#2065"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/SingletonSoundManager.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/SingletonSoundManager.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/SpriteSheet.o /Users/svp/Documents/Videogame/SpriteSheet.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325883267.397394
+e325883268.262864
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/SpriteSheet.o
+x/Users/svp/Documents/Videogame/SpriteSheet.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/svp/Documents/Videogame/SpriteSheet.m325883267#325883268#0(0"0(0#0#44"/Users/svp/Documents/Videogame/SpriteSheet.m8620966592#2045"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/SpriteSheet.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/SpriteSheet.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Texture2D.o /Users/svp/Documents/Videogame/Texture2D.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323801746.886594
+e323801747.528482
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Texture2D.o
+x/Users/svp/Documents/Videogame/Texture2D.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/svp/Documents/Videogame/Texture2D.m323801746#323801747#0(0"0(0#0#42"/Users/svp/Documents/Videogame/Texture2D.m8619542080#2041"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Texture2D.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Texture2D.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Texture2DEngine.o /Users/svp/Documents/Videogame/Texture2DEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323054426.346150
+e323054428.198155
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Texture2DEngine.o
+x/Users/svp/Documents/Videogame/Texture2DEngine.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/svp/Documents/Videogame/Texture2DEngine.m323054426#323054428#0(0"0(0#0#48"/Users/svp/Documents/Videogame/Texture2DEngine.m8642771840#1947"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-dmmugflgypdqkndqbejekidmugov/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Texture2DEngine.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Texture2DEngine.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/TileSet.o /Users/svp/Documents/Videogame/TileSet.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325883235.275297
+e325883235.928239
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/TileSet.o
+x/Users/svp/Documents/Videogame/TileSet.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/svp/Documents/Videogame/TileSet.m325883235#325883235#0(0"0(0#0#40"/Users/svp/Documents/Videogame/TileSet.m8621141568#2037"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/TileSet.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/TileSet.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/TiledMap.o /Users/svp/Documents/Videogame/TiledMap.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328078885.337553
+e328078886.344381
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/TiledMap.o
+x/Users/svp/Documents/Videogame/TiledMap.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/svp/Documents/Videogame/TiledMap.m: In function '-[TiledMap initWithTiledFile:fileExtension:]':
+o/Users/svp/Documents/Videogame/TiledMap.m:42: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:383)
+lSLF07#2@49"Compile /Users/svp/Documents/Videogame/TiledMap.m328078885#328078886#0(368"/Users/svp/Documents/Videogame/TiledMap.m: In function '-[TiledMap initWithTiledFile:fileExtension:]':/Users/svp/Documents/Videogame/TiledMap.m:42: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:383)1(22@209"'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:383)328078885#103#265#0(6@41"/Users/svp/Documents/Videogame/TiledMap.m323942752#42#0#42#0#33"'*' is deprecated (declared at *)0(0#0#41"/Users/svp/Documents/Videogame/TiledMap.m8600110432#2039"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/TiledMap.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/TiledMap.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/VideogameAppDelegate.o /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328078884.315633
+e328078885.056696
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/VideogameAppDelegate.o
+x/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m328078884#328078885#0(0"0(0#0#61"/Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m8602958048#2071"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Classes/VideogameAppDelegate.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/VideogameAppDelegate.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/VideogameViewController.o /Users/svp/Documents/Videogame/Classes/VideogameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328078884.322209
+e328078885.337294
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/VideogameViewController.o
+x/Users/svp/Documents/Videogame/Classes/VideogameViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/svp/Documents/Videogame/Classes/VideogameViewController.m328078884#328078885#0(0"0(0#0#64"/Users/svp/Documents/Videogame/Classes/VideogameViewController.m8602854304#2077"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/Classes/VideogameViewController.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/VideogameViewController.o0#
+
+CCompileC build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/main.o /Users/svp/Documents/Videogame/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323801745.322808
+e323801745.662041
+r1
+xCompileC
+xbuild/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/main.o
+x/Users/svp/Documents/Videogame/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/svp/Documents/Videogame/main.m323801745#323801745#0(0"0(0#0#37"/Users/svp/Documents/Videogame/main.m8600804672#2031"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch -c /Users/svp/Documents/Videogame/main.m -o /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/svp/Documents/Videogame/Classes/../MainWindow.xib
+r0
+
+CCompileXIB /Users/svp/Documents/Videogame/Classes/../VideogameViewController.xib
+r0
+
+CCompileXIB /Users/svp/Documents/Videogame/MainWindow.xib
+s323154449.974504
+e323154452.349112
+r1
+xCompileXIB
+x/Users/svp/Documents/Videogame/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib323154449#323154452#0(0"0(0#0#45"/Users/svp/Documents/Videogame/MainWindow.xib8639737952#550"    cd /Users/svp/Documents/Videogame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/MainWindow.nib /Users/svp/Documents/Videogame/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/svp/Documents/Videogame/VideogameViewController.xib
+s323154450.040839
+e323154452.198323
+r1
+xCompileXIB
+x/Users/svp/Documents/Videogame/VideogameViewController.xib
+lSLF07#2@38"CompileXIB VideogameViewController.xib323154450#323154452#0(0"0(0#0#58"/Users/svp/Documents/Videogame/VideogameViewController.xib8638135008#576"    cd /Users/svp/Documents/Videogame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/VideogameViewController.nib /Users/svp/Documents/Videogame/VideogameViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Idle.png Idle.png
+s323154452.222477
+e323154452.302277
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Idle.png
+xIdle.png
+lSLF07#2@13"Copy Idle.png323154452#323154452#0(0"0(0#0#39"/Users/svp/Documents/Videogame/Idle.png8644217312#467"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Idle.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Jump.png Jump.png
+s323156516.374262
+e323156516.421309
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Jump.png
+xJump.png
+lSLF07#2@13"Copy Jump.png323156516#323156516#0(0"0(0#0#39"/Users/svp/Documents/Videogame/Jump.png8648734944#467"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Jump.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Jumping.png Jumping.png
+s323154595.635296
+e323154595.676197
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Jumping.png
+xJumping.png
+lSLF07#2@16"Copy Jumping.png323154595#323154595#0(0"0(0#0#42"/Users/svp/Documents/Videogame/Jumping.png8652111520#470"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Jumping.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Layer0_0.png Layer0_0.png
+s323844827.868883
+e323844827.955190
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Layer0_0.png
+xLayer0_0.png
+lSLF07#2@17"Copy Layer0_0.png323844827#323844827#0(0"0(0#0#43"/Users/svp/Documents/Videogame/Layer0_0.png8620312256#471"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Layer0_0.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Layer0_1.png Layer0_1.png
+s323933512.340606
+e323933512.627990
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Layer0_1.png
+xLayer0_1.png
+lSLF07#2@17"Copy Layer0_1.png323933512#323933512#0(0"0(0#0#43"/Users/svp/Documents/Videogame/Layer0_1.png24207049868050544#471"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Layer0_1.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Layer0_2.png Layer0_2.png
+s323933512.357685
+e323933512.720644
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Layer0_2.png
+xLayer0_2.png
+lSLF07#2@17"Copy Layer0_2.png323933512#323933512#0(0"0(0#0#43"/Users/svp/Documents/Videogame/Layer0_2.png8603800384#471"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Layer0_2.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Layer1_0.png Layer1_0.png
+s323844827.872587
+e323844827.955521
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Layer1_0.png
+xLayer1_0.png
+lSLF07#2@17"Copy Layer1_0.png323844827#323844827#0(0"0(0#0#43"/Users/svp/Documents/Videogame/Layer1_0.png8623071488#471"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Layer1_0.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Layer1_1.png Layer1_1.png
+s323933512.361266
+e323933512.786429
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Layer1_1.png
+xLayer1_1.png
+lSLF07#2@17"Copy Layer1_1.png323933512#323933512#0(0"0(0#0#43"/Users/svp/Documents/Videogame/Layer1_1.png8603682560#471"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Layer1_1.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Layer1_2.png Layer1_2.png
+s323933512.363775
+e323933512.747013
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Layer1_2.png
+xLayer1_2.png
+lSLF07#2@17"Copy Layer1_2.png323933512#323933512#0(0"0(0#0#43"/Users/svp/Documents/Videogame/Layer1_2.png8603445600#471"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Layer1_2.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Layer2_0.png Layer2_0.png
+s323933512.366793
+e323933512.623317
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Layer2_0.png
+xLayer2_0.png
+lSLF07#2@17"Copy Layer2_0.png323933512#323933512#0(0"0(0#0#43"/Users/svp/Documents/Videogame/Layer2_0.png8603356832#471"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Layer2_0.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Layer2_1.png Layer2_1.png
+s323933512.371013
+e323933512.741574
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Layer2_1.png
+xLayer2_1.png
+lSLF07#2@17"Copy Layer2_1.png323933512#323933512#0(0"0(0#0#43"/Users/svp/Documents/Videogame/Layer2_1.png8602921280#471"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Layer2_1.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Layer2_2.png Layer2_2.png
+s323933512.375502
+e323933512.757492
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Layer2_2.png
+xLayer2_2.png
+lSLF07#2@17"Copy Layer2_2.png323933512#323933512#0(0"0(0#0#43"/Users/svp/Documents/Videogame/Layer2_2.png8600151776#471"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Layer2_2.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Level1.tmx Level1.tmx
+s325890591.015958
+e325890591.035439
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Level1.tmx
+xLevel1.tmx
+lSLF07#2@15"Copy Level1.tmx325890591#325890591#0(0"0(0#0#41"/Users/svp/Documents/Videogame/Level1.tmx8619270688#469"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Level1.tmx /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Level2.tmx Level2.tmx
+s328078716.883915
+e328078716.964994
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Level2.tmx
+xLevel2.tmx
+lSLF07#2@15"Copy Level2.tmx328078716#328078716#0(0"0(0#0#41"/Users/svp/Documents/Videogame/Level2.tmx24207049868050544#469"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Level2.tmx /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/MainPlayer.png MainPlayer.png
+s327006217.888179
+e327006217.913751
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/MainPlayer.png
+xMainPlayer.png
+lSLF07#2@19"Copy MainPlayer.png327006217#327006217#0(0"0(0#0#45"/Users/svp/Documents/Videogame/MainPlayer.png8612667936#473"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/MainPlayer.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/OLayer0_0.png OLayer0_0.png
+s325795661.744048
+e325795661.862829
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/OLayer0_0.png
+xOLayer0_0.png
+lSLF07#2@18"Copy OLayer0_0.png325795661#325795661#0(0"0(0#0#44"/Users/svp/Documents/Videogame/OLayer0_0.png8590244096#472"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/OLayer0_0.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/OLayer0_1.png OLayer0_1.png
+s325795661.753722
+e325795661.885544
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/OLayer0_1.png
+xOLayer0_1.png
+lSLF07#2@18"Copy OLayer0_1.png325795661#325795661#0(0"0(0#0#44"/Users/svp/Documents/Videogame/OLayer0_1.png8590213184#472"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/OLayer0_1.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/OLayer0_2.png OLayer0_2.png
+s325795661.758157
+e325795661.883344
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/OLayer0_2.png
+xOLayer0_2.png
+lSLF07#2@18"Copy OLayer0_2.png325795661#325795661#0(0"0(0#0#44"/Users/svp/Documents/Videogame/OLayer0_2.png8655487936#472"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/OLayer0_2.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/PLayer0_0.png PLayer0_0.png
+s325796267.414600
+e325796267.454068
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/PLayer0_0.png
+xPLayer0_0.png
+lSLF07#2@18"Copy PLayer0_0.png325796267#325796267#0(0"0(0#0#44"/Users/svp/Documents/Videogame/PLayer0_0.png8603046432#472"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/PLayer0_0.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/PLayer0_1.png PLayer0_1.png
+s325796267.420566
+e325796267.454403
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/PLayer0_1.png
+xPLayer0_1.png
+lSLF07#2@18"Copy PLayer0_1.png325796267#325796267#0(0"0(0#0#44"/Users/svp/Documents/Videogame/PLayer0_1.png8614725792#472"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/PLayer0_1.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/PLayer0_2.png PLayer0_2.png
+s325796267.422810
+e325796267.466227
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/PLayer0_2.png
+xPLayer0_2.png
+lSLF07#2@18"Copy PLayer0_2.png325796267#325796267#0(0"0(0#0#44"/Users/svp/Documents/Videogame/PLayer0_2.png8614526432#472"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/PLayer0_2.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Player.png Player.png
+s325893302.595702
+e325893302.663002
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Player.png
+xPlayer.png
+lSLF07#2@15"Copy Player.png325893302#325893302#0(0"0(0#0#41"/Users/svp/Documents/Videogame/Player.png8623109568#469"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Player.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Player1.png Player1.png
+s323152416.800734
+e323152416.858151
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Player1.png
+xPlayer1.png
+lSLF07#2@16"Copy Player1.png323152416#323152416#0(0"0(0#0#42"/Users/svp/Documents/Videogame/Player1.png8641989408#470"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Player1.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Player2.png Player2.png
+s323152860.840775
+e323152860.873434
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Player2.png
+xPlayer2.png
+lSLF07#2@16"Copy Player2.png323152860#323152860#0(0"0(0#0#42"/Users/svp/Documents/Videogame/Player2.png8646706880#470"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Player2.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Player3.gif Player3.gif
+s323153252.941486
+e323153252.985431
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Player3.gif
+xPlayer3.gif
+lSLF07#2@16"Copy Player3.gif323153252#323153253#0(0"0(0#0#42"/Users/svp/Documents/Videogame/Player3.gif8634531296#470"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Player3.gif /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Player3.png Player3.png
+s323153368.955016
+e323153368.984161
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Player3.png
+xPlayer3.png
+lSLF07#2@16"Copy Player3.png323153368#323153369#0(0"0(0#0#42"/Users/svp/Documents/Videogame/Player3.png8639421152#470"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Player3.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/PlayerFall.wav PlayerFall.wav
+s327987458.580641
+e327987459.550665
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/PlayerFall.wav
+xPlayerFall.wav
+lSLF07#2@19"Copy PlayerFall.wav327987458#327987459#0(0"0(0#0#45"/Users/svp/Documents/Videogame/PlayerFall.wav8618464480#473"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/PlayerFall.wav /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/PlayerJump.caf PlayerJump.caf
+s327986541.669735
+e327986541.689296
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/PlayerJump.caf
+xPlayerJump.caf
+lSLF07#2@19"Copy PlayerJump.caf327986541#327986541#0(0"0(0#0#45"/Users/svp/Documents/Videogame/PlayerJump.caf8603958016#473"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/PlayerJump.caf /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/PlayerJump.mp3 PlayerJump.mp3
+s327985587.922589
+e327985587.952769
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/PlayerJump.mp3
+xPlayerJump.mp3
+lSLF07#2@19"Copy PlayerJump.mp3327985587#327985587#0(0"0(0#0#45"/Users/svp/Documents/Videogame/PlayerJump.mp38619060896#473"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/PlayerJump.mp3 /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/PlayerJump.wav PlayerJump.wav
+s327985941.664700
+e327985941.898201
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/PlayerJump.wav
+xPlayerJump.wav
+lSLF07#2@19"Copy PlayerJump.wav327985941#327985941#0(0"0(0#0#45"/Users/svp/Documents/Videogame/PlayerJump.wav8619258528#473"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/PlayerJump.wav /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/PlayerKilled.wav PlayerKilled.wav
+s327987458.610990
+e327987459.842929
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/PlayerKilled.wav
+xPlayerKilled.wav
+lSLF07#2@21"Copy PlayerKilled.wav327987458#327987459#0(0"0(0#0#47"/Users/svp/Documents/Videogame/PlayerKilled.wav8617346144#475"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/PlayerKilled.wav /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Prueba.png Prueba.png
+s323053560.981644
+e323053561.008763
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Prueba.png
+xPrueba.png
+lSLF07#2@15"Copy Prueba.png323053560#323053561#0(0"0(0#0#41"/Users/svp/Documents/Videogame/Prueba.png8598111680#469"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Prueba.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Rock.png Rock.png
+s323886919.441430
+e323886919.532921
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Rock.png
+xRock.png
+lSLF07#2@13"Copy Rock.png323886919#323886919#0(0"0(0#0#39"/Users/svp/Documents/Videogame/Rock.png8620785184#467"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Rock.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Run.png Run.png
+s323154452.209082
+e323154452.285968
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Run.png
+xRun.png
+lSLF07#2@12"Copy Run.png323154452#323154452#0(0"0(0#0#38"/Users/svp/Documents/Videogame/Run.png8655371552#466"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Run.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Shader.fsh Shaders/Shader.fsh
+s323154449.929950
+e323154450.040365
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Shader.fsh
+xShaders/Shader.fsh
+lSLF07#2@23"Copy Shaders/Shader.fsh323154449#323154450#0(0"0(0#0#49"/Users/svp/Documents/Videogame/Shaders/Shader.fsh8643580704#477"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Shaders/Shader.fsh /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/Shader.vsh Shaders/Shader.vsh
+s323154449.966191
+e323154450.040651
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/Shader.vsh
+xShaders/Shader.vsh
+lSLF07#2@23"Copy Shaders/Shader.vsh323154449#323154450#0(0"0(0#0#49"/Users/svp/Documents/Videogame/Shaders/Shader.vsh8641892352#477"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/Shaders/Shader.vsh /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/SupportLayer.png SupportLayer.png
+s325798547.482350
+e325798547.498499
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/SupportLayer.png
+xSupportLayer.png
+lSLF07#2@21"Copy SupportLayer.png325798547#325798547#0(0"0(0#0#47"/Users/svp/Documents/Videogame/SupportLayer.png8655100864#475"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/SupportLayer.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/ThePlayer.png ThePlayer.png
+s323157370.335343
+e323157370.363493
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/ThePlayer.png
+xThePlayer.png
+lSLF07#2@18"Copy ThePlayer.png323157370#323157370#0(0"0(0#0#44"/Users/svp/Documents/Videogame/ThePlayer.png8640744160#472"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/ThePlayer.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/TileSet.png TileSet.png
+s325886583.596697
+e325886583.626548
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/TileSet.png
+xTileSet.png
+lSLF07#2@16"Copy TileSet.png325886583#325886583#0(0"0(0#0#42"/Users/svp/Documents/Videogame/TileSet.png8621836000#470"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/TileSet.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/background.mp3 background.mp3
+s327983409.054035
+e327983410.840321
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/background.mp3
+xbackground.mp3
+lSLF07#2@19"Copy background.mp3327983409#327983410#0(0"0(0#0#45"/Users/svp/Documents/Videogame/background.mp38612767936#473"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/background.mp3 /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/font1.fnt font1.fnt
+s323380341.699081
+e323380341.791154
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/font1.fnt
+xfont1.fnt
+lSLF07#2@14"Copy font1.fnt323380341#323380341#0(0"0(0#0#40"/Users/svp/Documents/Videogame/font1.fnt8618046400#468"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/font1.fnt /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/font1.png font1.png
+s323380341.702201
+e323380341.789977
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/font1.png
+xfont1.png
+lSLF07#2@14"Copy font1.png323380341#323380341#0(0"0(0#0#40"/Users/svp/Documents/Videogame/font1.png8618042016#468"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/font1.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/music.mp3 music.mp3
+s327983906.492202
+e327983907.457322
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/music.mp3
+xmusic.mp3
+lSLF07#2@14"Copy music.mp3327983906#327983908#0(0"0(0#0#40"/Users/svp/Documents/Videogame/music.mp38614981344#468"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/music.mp3 /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/photon.caf photon.caf
+s327984863.775991
+e327984863.886656
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/photon.caf
+xphoton.caf
+lSLF07#2@15"Copy photon.caf327984863#327984863#0(0"0(0#0#41"/Users/svp/Documents/Videogame/photon.caf24207049868050544#469"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/photon.caf /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/player.png player.png
+s323154452.199347
+e323154452.273500
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/player.png
+xplayer.png
+lSLF07#2@15"Copy player.png323154452#323154452#0(0"0(0#0#41"/Users/svp/Documents/Videogame/player.png8631993728#469"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/player.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/ship.png ship.png
+s325892832.674222
+e325892832.703288
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/ship.png
+xship.png
+lSLF07#2@13"Copy ship.png325892832#325892832#0(0"0(0#0#39"/Users/svp/Documents/Videogame/ship.png8612801088#467"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/ship.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/spritesheet16.gif spritesheet16.gif
+s323154452.204571
+e323154452.267884
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/spritesheet16.gif
+xspritesheet16.gif
+lSLF07#2@22"Copy spritesheet16.gif323154452#323154452#0(0"0(0#0#48"/Users/svp/Documents/Videogame/spritesheet16.gif8655585632#476"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/spritesheet16.gif /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/test1.fnt test1.fnt
+s323380341.704426
+e323380341.789583
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/test1.fnt
+xtest1.fnt
+lSLF07#2@14"Copy test1.fnt323380341#323380341#0(0"0(0#0#40"/Users/svp/Documents/Videogame/test1.fnt8618023936#468"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/test1.fnt /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/test1.png test1.png
+s323380341.713682
+e323380341.834191
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/test1.png
+xtest1.png
+lSLF07#2@14"Copy test1.png323380341#323380341#0(0"0(0#0#40"/Users/svp/Documents/Videogame/test1.png8617938848#468"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/test1.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/test2.fnt test2.fnt
+s323393222.102028
+e323393222.196888
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/test2.fnt
+xtest2.fnt
+lSLF07#2@14"Copy test2.fnt323393222#323393222#0(0"0(0#0#40"/Users/svp/Documents/Videogame/test2.fnt8619744448#468"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/test2.fnt /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/test2.png test2.png
+s323393222.106526
+e323393222.197391
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/test2.png
+xtest2.png
+lSLF07#2@14"Copy test2.png323393222#323393222#0(0"0(0#0#40"/Users/svp/Documents/Videogame/test2.png8619607104#468"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/test2.png /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CCpResource build/Release-iphonesimulator/Videogame.app/zerox4.gif zerox4.gif
+s323145502.911387
+e323145502.949497
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Videogame.app/zerox4.gif
+xzerox4.gif
+lSLF07#2@15"Copy zerox4.gif323145502#323145502#0(0"0(0#0#41"/Users/svp/Documents/Videogame/zerox4.gif8644700512#469"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/svp/Documents/Videogame/zerox4.gif /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+
+CGenerateDSYMFile /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app.dSYM /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Videogame
+s328114907.318876
+e328114907.780550
+r1
+xGenerateDSYMFile
+x/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app.dSYM
+x/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Videogame
+lSLF07#2@119"GenerateDSYMFile build/Release-iphonesimulator/Videogame.app.dSYM build/Release-iphonesimulator/Videogame.app/Videogame328114907#328114907#0(0"0(0#0#84"/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Videogame8608413504#369"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Videogame -o /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app.dSYM0#
+
+CLd /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Videogame normal i386
+s328114906.766610
+e328114907.318435
+r1
+xLd
+x/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Videogame
+xnormal
+xi386
+lSLF07#2@89"Link /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Videogame328114906#328114907#0(0"0(0#0#0"8608445056#1014"    cd /Users/svp/Documents/Videogame    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/svp/Documents/Videogame/build/Release-iphonesimulator -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -filelist /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Objects-normal/i386/Videogame.LinkFileList -mmacosx-version-min=10.6 -lxml2 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreGraphics -framework AVFoundation -framework AudioToolbox -framework CoreAudio -framework OpenAL -o /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Videogame0#
+
+CProcessInfoPlistFile /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Info.plist Videogame-Info.plist
+s323800536.254829
+e323800536.269868
+r1
+xProcessInfoPlistFile
+x/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Info.plist
+xVideogame-Info.plist
+lSLF07#2@28"Process Videogame-Info.plist323800536#323800536#0(0"0(0#0#51"/Users/svp/Documents/Videogame/Videogame-Info.plist8618465024#465"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Videogame-Info.plist -genpkginfo /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app/Info.plist0#
+
+CProcessPCH /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-dmmugflgypdqkndqbejekidmugov/Videogame_Prefix.pch.gch Videogame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s323154452.349335
+e323154455.281700
+r1
+xProcessPCH
+x/var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-dmmugflgypdqkndqbejekidmugov/Videogame_Prefix.pch.gch
+xVideogame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Videogame_Prefix.pch323154452#323154455#0(0"0(0#0#51"/Users/svp/Documents/Videogame/Videogame_Prefix.pch8652161344#1821"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/svp/Documents/Videogame/Videogame_Prefix.pch -o /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-dmmugflgypdqkndqbejekidmugov/Videogame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch.gch Videogame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s323801740.238983
+e323801745.284956
+r1
+xProcessPCH
+x/var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch.gch
+xVideogame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Videogame_Prefix.pch323801740#323801745#0(0"0(0#0#51"/Users/svp/Documents/Videogame/Videogame_Prefix.pch8620756288#1927"    cd /Users/svp/Documents/Videogame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-generated-files.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-own-target-headers.hmap -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-all-target-headers.hmap -iquote /Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/Videogame-project-headers.hmap -F/Users/svp/Documents/Videogame/build/Release-iphonesimulator -I/Users/svp/Documents/Videogame/build/Release-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources/i386 -I/Users/svp/Documents/Videogame/build/Videogame.build/Release-iphonesimulator/Videogame.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/svp/Documents/Videogame/Videogame_Prefix.pch -o /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Videogame_Prefix-gjdnqajurwdescbzsstnhrtrzfoc/Videogame_Prefix.pch.gch0#
+
+CTouch /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app
+s328114907.780668
+e328114907.834564
+r1
+xTouch
+x/Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app
+lSLF07#2@80"Touch /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app328114907#328114907#0(0"0(0#0#0"8608364320#266"    cd /Users/svp/Documents/Videogame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/svp/Documents/Videogame/build/Release-iphonesimulator/Videogame.app0#
+

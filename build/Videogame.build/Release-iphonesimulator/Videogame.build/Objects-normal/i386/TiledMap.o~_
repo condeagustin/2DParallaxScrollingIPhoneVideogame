@@ -1,0 +1,2 @@
+/Users/svp/Documents/Videogame/TiledMap.m: In function '-[TiledMap initWithTiledFile:fileExtension:]':
+/Users/svp/Documents/Videogame/TiledMap.m:42: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:383)
